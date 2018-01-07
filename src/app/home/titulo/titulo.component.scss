@@ -1,0 +1,25 @@
+@import '../../../scss/imports';
+
+.titulo-component {
+    text-align: center;
+
+    i {
+        font-size: 4em;
+        color: $verde;
+    }
+
+    h3 {
+        font: {
+            size: 3em;
+            weight: 300;
+        }
+        color: #000;
+        margin: 0 0 1em;
+    }
+}
+
+@media screen and ( max-height: 600px ) {
+    .titulo-component {
+        margin-top: calc(10% - 85px);
+    }
+}

@@ -1,0 +1,21 @@
+<div class="palestrante-component" (mouseenter)="boxEnter()" (mouseleave)="boxLeave()">
+
+    <div class="front">
+        <img [src]="trust(palestrante.imagem)" alt="{{palestrante.nome}}">
+        <div class="nome">
+            <span>{{palestrante.nome}}</span>
+            <span>{{palestrante.sobrenome}}</span>
+        </div>
+    </div>
+
+    <div class="bio" [ngClass]="{'bio-active': showBio}">
+        <p>{{palestrante.bio}}</p>
+
+        <div class="redes">
+            <a *ngIf="palestrante.redes.github" [href]="palestrante.redes.github" target="_blank" (click)="clickSocial('github')"><i class="icon ion-social-github"></i></a>
+            <a *ngIf="palestrante.redes.facebook" [href]="palestrante.redes.facebook" target="_blank" (click)="clickSocial('facebook')"><i class="icon ion-social-facebook"></i></a>
+            <a *ngIf="palestrante.redes.twitter" [href]="palestrante.redes.twitter" target="_blank" (click)="clickSocial('twitter')"><i class="icon ion-social-twitter"></i></a>
+        </div>
+    </div>
+
+</div>
