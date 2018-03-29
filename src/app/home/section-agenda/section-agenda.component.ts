@@ -14,35 +14,77 @@ export class SectionAgendaComponent implements OnInit {
     ngOnInit() {
         this.agendas = [
             {
-                hora: '08:30',
-                nome: 'Danielle Sobrenome',
-                titulo: 'Abertura, entenda o GDG Lauro de Freitas',
-                imagem: '../../../assets/img/p_danielle.jpg'
+                dia: 'Martes',
+                hora: '05:30 pm',
+                nome: 'Carlos Rojas',
+                titulo: 'Arquitectura de Apps escalables en Angular',
+                desc: 'Te ha pasado que llegas a un proyecto legado en Angular y debes escalarlo entrando en conflicto con varios problemas de rendimiento y diseño que podrían ser evitados en el inicio?  El UI ha evolucionado mucho en los últimos años haciendo que sea cada vez mas importante conocer patrones de diseño y como aplicarlos a un proyecto que esta pensado a mantenerse varios años.  En esta charla aprenderemos como aplicar los patrones de diseño con los bloques de construcción de Angular para proyectos pensados en tener mas de 100 componentes.',
+                imagem: '../../../assets/img/man.png'
             },
             {
-                hora: '09:15',
-                nome: 'Ramon Mota',
-                titulo: 'Comunidade: por onde começar?',
-                imagem: '../../../assets/img/p_ramon.jpg'
+                dia: 'Martes',
+                hora: '06:30',
+                nome: 'Angular Material',
+                titulo: 'Angular Material',
+                desc: 'Material Design, es un lenguaje visual dirigido a los usuarios que permite unificar la experiencia en las diferentes plataformas y tamaños de dispositivos. Angular Material, es la adaptación de esta guía en Angular. El objetivo de la charla es dar a conocer los principios de esta guía de diseño en Angular, sus componentes y como esta herramienta nos permite realizar aplicaciones usables; sin tener que tener conocimientos previos en diseño web. Además de conocer algunas alternativas a Angular Material.',
+                imagem: '../../../assets/img/man.png'
             },
             {
-                hora: '10:00',
+                dia: 'Miercoles',
+                hora: '05:30 pm',
                 nome: 'Tuane Paixão',
-                titulo: 'Android things developer',
-                imagem: '../../../assets/img/p_tuane.jpg'
+                titulo: 'De Reactive Forms y Otras Delicias',
+                desc: 'Aprende a crear formularios dinámicos y profundamente customizados, además de técnicas avanzadas de validación y optimización de manipulación de datos.',
+                imagem: '../../../assets/img/man.png'
             },
             {
+                dia: 'Miercoles',
                 hora: '10:45',
                 nome: 'Walter Gandarella',
-                titulo: 'Indo além do mobile com Progressive Web Apps',
-                imagem: '../../../assets/img/p_walter.jpg'
+                titulo: 'Animation Builder',
+                desc: 'Angular Medellin',
+                imagem: '../../../assets/img/man.png'
             },
             {
-                hora: '11:25',
+                dia: 'Jueves',
+                hora: '05:30 pm',
                 nome: 'Jonata Weber',
-                titulo: 'A onda agora é Funções como Serviço',
-                imagem: '../../../assets/img/p_jonata.jpg'
+                titulo: 'Patrones arquitectónicos de CSS para Angular',
+                desc: 'Crear estructuras de css escalables, reusables, debugueables y adaptables a las nuevas tendencias tecnológicas.  Comprender los distintos scopes que existen en una app de angular (global y component).  Cómo afecta la especificidad y el performance la estructura de nuestro css',
+                imagem: '../../../assets/img/man.png'
             },
+            {
+                dia: 'Jueves',
+                hora: '05:30 pm',
+                nome: 'Laura Ciro',
+                titulo: 'Change Detection en Angular',
+                desc: 'Pioneras Dev',
+                imagem: '../../../assets/img/man.png'
+            },
+            {
+                dia: 'Viernes',
+                hora: '05:30 pm',
+                nome: 'Jonata Weber',
+                titulo: 'Arquitectura de Datos con Observables.',
+                desc: 'Aprenderán que son los Observables y qué es Reactive Programming',
+                imagem: '../../../assets/img/man.png'
+            },
+            {
+                dia: 'Viernes',
+                hora: '05:30 pm',
+                nome: 'Jonata Weber',
+                titulo: 'Observable Data Services',
+                desc: 'Se aprenderán conceptos de alto nivel sobre Observables y cómo construir servicios alrededor de las funcionalidades que estos nos ofrecen.',
+                imagem: '../../../assets/img/man.png'
+            },
+            {
+                dia: 'Sabado',
+                hora: '09:00 am - 01:00 pm',
+                nome: 'Sebastian Gomez',
+                titulo: 'IONIC + TDD + PWA',
+                desc: 'Aprenderán desde cero hasta avanzado Unit Testing para Angular5/Ionic3 con PWA de fondo.',
+                imagem: '../../../assets/img/man.png'
+            }
         ];
     }
 

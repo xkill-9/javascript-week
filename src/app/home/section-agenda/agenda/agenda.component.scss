@@ -4,19 +4,19 @@
     margin: 0;
 
     .timeline {
-        height: 15vh;
+        height: 30vh;
         position: relative;
 
         .linha {
             position: absolute;
             left: 0;
             width: 50%;
-            height: 15vh;
+            height: 30vh;
             border-right: 1px solid #c0c0c0;
 
             .bola {
                 position: absolute;
-                top: 5.5vh;
+                top: 12vh;
                 right: -1.5vh;
                 width: 3vh;
                 height: 3vh;
@@ -29,7 +29,7 @@
 
     .palestras {
         @extend %flex-center-left;
-        height: 15vh;
+        height: 30vh;
 
         .area {
             width: 100%;
@@ -50,7 +50,7 @@
                 @include box-shadow(-4px, 0, 20px, rgba(0,0,0,.2));
                 @extend %flex-center-left;
                 background-color: #fff;
-                padding: .5em;
+                padding: 1em;
 
                 .foto {
                     @include border-radius(50%);

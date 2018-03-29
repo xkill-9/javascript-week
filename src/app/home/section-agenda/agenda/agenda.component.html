@@ -13,8 +13,9 @@
             <div class="palestra">
                 <img [src]="trust(agenda.imagem)" alt="{{agenda.nome}}" class="foto">
                 <div class="dados">
-                    <strong>{{agenda.hora}}</strong>
-                    <p>{{agenda.titulo}}</p>
+                    <strong>{{agenda.dia}}- {{agenda.hora}}</strong>
+                    <p><i>{{agenda.titulo}}</i></p>
+                    <p>{{ (agenda.desc.length > 300) ? (agenda.desc | slice:0:300)+'..':(agenda.desc) }}</p>
                 </div>
             </div>
         </div>
