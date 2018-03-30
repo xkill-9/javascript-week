@@ -14,59 +14,103 @@ export class SectionPalestrantesComponent implements OnInit {
     ngOnInit() {
         this.palestrantes = [
             {
-                nome: 'Danielle',
-                sobrenome: 'Teixeira',
-                imagem: '../../../../assets/img/p_danielle.jpg',
+                nome: 'Carlos',
+                sobrenome: 'Rojas',
+                imagem: '../../../../assets/img/man.png',
                 redes: {
-                    github: 'http://github.com/dannyserena',
+                    github: 'http://github.com/carlosrojaso',
                     //facebook: 'https://facebook.com/wgbnn',
-                    twitter: 'https://twitter.com/dannyserena'
+                    twitter: 'https://twitter.com/carlosrojas_o'
                 },
-                bio: 'Analista de Requisitos, entusiasta por desenvolvimento mobile e fã de Computação Ubíqua. Graduada em Engenharia da Computação, Pós-graduada em Banco de Dados e Pós-Graduanda em Desenvolvimento Mobile.'
+                bio: 'Google Product Strategy Expert. Web UI en Globant.'
             },
             {
-                nome: 'Ramon',
-                sobrenome: 'Mota',
-                imagem: '../../../../assets/img/p_ramon.jpg',
+                nome: 'Vanessa',
+                sobrenome: 'Aristizabal',
+                imagem: '../../../../assets/img/man.png',
                 redes: {
                     //github: 'http://github.com/wgbn',
-                    facebook: 'https://www.facebook.com/ramon.mota.9461',
-                    twitter: 'https://twitter.com/ramonmluz'
+                    facebook: 'https://www.facebook.com/',
+                    twitter: 'https://twitter.com/'
                 },
-                bio: 'Desenvolvedor, especialista e fã da computação Ubíqua, atualmente aficionado pelo desenvolvimento para Smartwatches através do Android Wear.'
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
             },
             {
-                nome: 'Tuane',
-                sobrenome: 'Paixão',
-                imagem: '../../../../assets/img/p_tuane.jpg',
+                nome: 'Juan',
+                sobrenome: 'Tobon',
+                imagem: '../../../../assets/img/man.png',
                 redes: {
-                    //github: 'http://github.com/wgbn',
-                    facebook: 'https://www.facebook.com/tuane.paixao.9',
-                    twitter: 'https://twitter.com/tuanelisboa'
+                    github: 'http://github.com/',
+                    facebook: 'https://www.facebook.com/',
+                    twitter: 'https://twitter.com/'
                 },
-                bio: 'Mestranda em Engenharia de sistemas e produtos. Especialista em gestão de projetos. Engenheira eletricista . Membro do COUNCIL Iot e Woman Techmaker.  Amante por Middleware,  Internet das Coisas e Software Livres.'
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
             },
             {
-                nome: 'Walter',
-                sobrenome: 'Gandarella',
-                imagem: '../../../../assets/img/p_walter.jpg',
+                nome: 'Carlos',
+                sobrenome: 'Angulo',
+                imagem: '../../../../assets/img/man.png',
                 redes: {
-                    github: 'http://github.com/wgbn',
-                    facebook: 'https://facebook.com/wgbnn',
-                    twitter: 'https://twitter.com/jebinha'
+                    github: 'http://github.com/',
+                    facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/'
                 },
-                bio: 'Desenvolvedor PHP desde 2000, especialista em aplicações ricas para web e mobile. Ao longo dos anos vem se especializando em diversas tecnologias diferentes que vão desde o Adobe Flex até aplicações mobile híbridas.'
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
             },
             {
-                nome: 'Jonata',
-                sobrenome: 'Weber',
-                imagem: '../../../../assets/img/p_jonata.jpg',
+                nome: 'Juan',
+                sobrenome: 'Vasquez',
+                imagem: '../../../../assets/img/man.png',
                 redes: {
-                    github: 'https://github.com/jonataa',
-                    //facebook: 'https://facebook.com/wgbnn',
-                    twitter: 'https://twitter.com/jonataweber'
+                    github: 'https://github.com/',
+                    facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/'
                 },
-                bio: 'Empreendedor, programador e fã do Raul Seixas, integrante das comunidades: DEVFSA, PHPBA e #horaextra. É bacharel em SI e pós-graduando em Engenharia de Software. Trabalhou com equipes distribuídas em Portugal e Estados Unidos.'
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+            },
+            {
+                nome: 'Laura',
+                sobrenome: 'Ciro',
+                imagem: '../../../../assets/img/man.png',
+                redes: {
+                    github: 'https://github.com/',
+                    facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/'
+                },
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+            },
+            {
+                nome: 'Sergio',
+                sobrenome: 'Valencia',
+                imagem: '../../../../assets/img/man.png',
+                redes: {
+                    github: 'https://github.com/',
+                    facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/'
+                },
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+            },
+            {
+                nome: 'Alvaro',
+                sobrenome: 'Agamez',
+                imagem: '../../../../assets/img/man.png',
+                redes: {
+                    github: 'https://github.com/',
+                    facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/'
+                },
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+            },
+            {
+                nome: 'Sebastian',
+                sobrenome: 'Gomez',
+                imagem: '../../../../assets/img/man.png',
+                redes: {
+                    github: 'https://github.com/',
+                    facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/'
+                },
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
             },
         ];
     }
