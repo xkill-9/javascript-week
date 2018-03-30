@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Gerando build"
-ng build --prod
+echo "Generando build"
+ng build --prod --no-aot
+echo "Enviando a Firebase"
+firebase deploy --only hosting
