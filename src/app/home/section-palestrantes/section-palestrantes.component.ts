@@ -16,7 +16,7 @@ export class SectionPalestrantesComponent implements OnInit {
             {
                 nome: 'Carlos',
                 sobrenome: 'Rojas',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/carlos.jpg',
                 redes: {
                     github: 'http://github.com/carlosrojaso',
                     //facebook: 'https://facebook.com/wgbnn',
@@ -27,13 +27,13 @@ export class SectionPalestrantesComponent implements OnInit {
             {
                 nome: 'Vanessa',
                 sobrenome: 'Aristizabal',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/vanessa.jpg',
                 redes: {
                     //github: 'http://github.com/wgbn',
                     facebook: 'https://www.facebook.com/',
                     twitter: 'https://twitter.com/'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Web UI Developer'
             },
             {
                 nome: 'Juan',
@@ -104,13 +104,13 @@ export class SectionPalestrantesComponent implements OnInit {
             {
                 nome: 'Sebastian',
                 sobrenome: 'Gomez',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/sebastian.jpg',
                 redes: {
-                    github: 'https://github.com/',
-                    facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    github: 'https://github.com/seagomezar',
+                    //facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/sebasgojs'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Practice Lead Hybrid Apps - Globant, GDG Medellín Organizer'
             },
         ];
     }
