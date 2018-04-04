@@ -27,7 +27,7 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Angular Material',
                 titulo: 'Angular Material',
                 desc: 'Material Design, es un lenguaje visual dirigido a los usuarios que permite unificar la experiencia en las diferentes plataformas y tamaños de dispositivos. Angular Material, es la adaptación de esta guía en Angular. El objetivo de la charla es dar a conocer los principios de esta guía de diseño en Angular, sus componentes y como esta herramienta nos permite realizar aplicaciones usables; sin tener que tener conocimientos previos en diseño web. Además de conocer algunas alternativas a Angular Material.',
-                imagem: '../../../assets/img/vanessa.jpg'
+                imagem: '../../../assets/img/vanessadrive.jpg'
             },
             {
                 dia: 'Miercoles',
@@ -35,7 +35,7 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Tuane Paixão',
                 titulo: 'De Reactive Forms y Otras Delicias',
                 desc: 'Aprende a crear formularios dinámicos y profundamente customizados, además de técnicas avanzadas de validación y optimización de manipulación de datos.',
-                imagem: '../../../assets/img/man.png'
+                imagem: '../../../assets/img/juantobon.jpg'
             },
             {
                 dia: 'Miercoles',
@@ -43,7 +43,7 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Walter Gandarella',
                 titulo: 'Animation Builder',
                 desc: 'Angular Medellin',
-                imagem: '../../../assets/img/man.png'
+                imagem: '../../../assets/img/carlosangulo.jpg'
             },
             {
                 dia: 'Jueves',
@@ -58,8 +58,8 @@ export class SectionAgendaComponent implements OnInit {
                 hora: '06:30 pm',
                 nome: 'Laura Ciro',
                 titulo: 'Change Detection en Angular',
-                desc: 'Pioneras Dev',
-                imagem: '../../../assets/img/man.png'
+                desc: 'Co-organizadora en @Pioneras-Dev , Rails Girls Med, NgGirls Med.Desarrolladora en Yuxi Global.‍ Me encanta el código, la música y la poesía, voy des-aprendiendo lo establecido, dando cabida a nuevas ideas/perspectivas y priorizando siempre la libertad, aprendiendo siempre de todxs y agradeciéndolo.',
+                imagem: '../../../assets/img/laura256.jpeg'
             },
             {
                 dia: 'Viernes',

@@ -19,43 +19,43 @@ export class SectionPalestrantesComponent implements OnInit {
                 imagem: '../../../../assets/img/carlos.jpg',
                 redes: {
                     github: 'http://github.com/carlosrojaso',
-                    //facebook: 'https://facebook.com/wgbnn',
+                    facebook: 'https://www.facebook.com/carlosrojas84',
                     twitter: 'https://twitter.com/carlosrojas_o'
                 },
-                bio: 'Google Product Strategy Expert. Web UI en Globant.'
+                bio: 'Google Product Strategy Expert.  Web UI en Globant.  Interesado principalmente en Progressive Web Apps, Angular y Firebase. En mi tiempo libre escribo libros y hago videos en Youtube.'
             },
             {
                 nome: 'Vanessa',
                 sobrenome: 'Aristizabal',
-                imagem: '../../../../assets/img/vanessa.jpg',
+                imagem: '../../../../assets/img/vanessadrive.jpg',
                 redes: {
-                    //github: 'http://github.com/wgbn',
-                    facebook: 'https://www.facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    github: 'http://github.com/vanessamarely',
+                    facebook: 'https://www.facebook.com/vane.m.angel',
+                    twitter: 'https://twitter.com/vanessamarely'
                 },
-                bio: 'Web UI Developer'
+                bio: 'Soy ingeniera de Sistemas, trabajo como Web UI en Globant. Tengo 6 años de experiencia como Web Developer. Apasionada por la tecnología, los libros y el Anime.'
             },
             {
                 nome: 'Juan',
                 sobrenome: 'Tobon',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/juantobon.jpg',
                 redes: {
-                    github: 'http://github.com/',
-                    facebook: 'https://www.facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    github: 'http://github.com/juantobongt',
+                    //facebook: 'https://www.facebook.com/',
+                    twitter: 'https://twitter.com/juantobongt'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Web UI Developer en Globant, con 6 años de experiencia en desarrollo Front-End. Apasionado por la creación de experiencias digitales atractivas, la música y las artes visuales.'
             },
             {
                 nome: 'Carlos',
                 sobrenome: 'Angulo',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/carlosangulo.jpg',
                 redes: {
                     github: 'http://github.com/',
                     facebook: 'https://facebook.com/',
                     twitter: 'https://twitter.com/'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Diseñador Industrial, Desarrollador Front-End, web, multimedia, animador.'
             },
             {
                 nome: 'Juan',
@@ -71,13 +71,14 @@ export class SectionPalestrantesComponent implements OnInit {
             {
                 nome: 'Laura',
                 sobrenome: 'Ciro',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../assets/img/laura256.jpeg',
                 redes: {
                     github: 'https://github.com/',
                     facebook: 'https://facebook.com/',
                     twitter: 'https://twitter.com/'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Co-organizadora en @Pioneras-Dev , Rails Girls Med, NgGirls Med.Desarrolladora en Yuxi Global.‍ Me encanta el código, la música y la poesía, voy des-aprendiendo lo establecido, dando cabida a nuevas ideas/perspectivas y priorizando siempre la libertad, aprendiendo siempre de todxs y agradeciéndolo.'
+               
             },
             {
                 nome: 'Sergio',

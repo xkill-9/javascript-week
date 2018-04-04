@@ -9,7 +9,7 @@
     </div>
 
     <div class="bio" [ngClass]="{'bio-active': showBio}">
-        <p>{{palestrante.bio}}</p>
+        <p>{{ (palestrante.bio.length > 220) ? (palestrante.bio | slice:0:220)+'..':(palestrante.bio) }}</p>
 
         <div class="redes">
             <a *ngIf="palestrante.redes.github" [href]="palestrante.redes.github" target="_blank" (click)="clickSocial('github')"><i class="icon ion-social-github"></i></a>

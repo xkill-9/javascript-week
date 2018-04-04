@@ -15,7 +15,8 @@
                 <div class="dados">
                     <strong>{{agenda.dia}}- {{agenda.hora}}</strong>
                     <p><i>{{agenda.titulo}}</i></p>
-                    <p>{{ (agenda.desc.length > 300) ? (agenda.desc | slice:0:300)+'..':(agenda.desc) }}</p>
+                    <p>{{ (agenda.desc.length > 182) ? (agenda.desc | slice:0:182)+'..':(agenda.desc) }}</p>
+                    <a href="#" target="_blank">Slides</a> | <a href="#" target="_blank">Repo</a>
                 </div>
             </div>
         </div>
