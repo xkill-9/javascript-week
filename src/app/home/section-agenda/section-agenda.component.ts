@@ -19,7 +19,7 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Carlos Rojas',
                 titulo: 'Arquitectura de Apps escalables en Angular',
                 desc: 'Te ha pasado que llegas a un proyecto legado en Angular y debes escalarlo entrando en conflicto con varios problemas de rendimiento y diseño que podrían ser evitados en el inicio?  El UI ha evolucionado mucho en los últimos años haciendo que sea cada vez mas importante conocer patrones de diseño y como aplicarlos a un proyecto que esta pensado a mantenerse varios años.  En esta charla aprenderemos como aplicar los patrones de diseño con los bloques de construcción de Angular para proyectos pensados en tener mas de 100 componentes.',
-                imagem: '../../../assets/img/man.png'
+                imagem: '../../../assets/img/carlos.jpg'
             },
             {
                 dia: 'Martes',
@@ -27,7 +27,7 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Angular Material',
                 titulo: 'Angular Material',
                 desc: 'Material Design, es un lenguaje visual dirigido a los usuarios que permite unificar la experiencia en las diferentes plataformas y tamaños de dispositivos. Angular Material, es la adaptación de esta guía en Angular. El objetivo de la charla es dar a conocer los principios de esta guía de diseño en Angular, sus componentes y como esta herramienta nos permite realizar aplicaciones usables; sin tener que tener conocimientos previos en diseño web. Además de conocer algunas alternativas a Angular Material.',
-                imagem: '../../../assets/img/man.png'
+                imagem: '../../../assets/img/vanessa.jpg'
             },
             {
                 dia: 'Miercoles',
@@ -39,7 +39,7 @@ export class SectionAgendaComponent implements OnInit {
             },
             {
                 dia: 'Miercoles',
-                hora: '10:45',
+                hora: '6:30',
                 nome: 'Walter Gandarella',
                 titulo: 'Animation Builder',
                 desc: 'Angular Medellin',
@@ -55,7 +55,7 @@ export class SectionAgendaComponent implements OnInit {
             },
             {
                 dia: 'Jueves',
-                hora: '05:30 pm',
+                hora: '06:30 pm',
                 nome: 'Laura Ciro',
                 titulo: 'Change Detection en Angular',
                 desc: 'Pioneras Dev',
@@ -71,7 +71,7 @@ export class SectionAgendaComponent implements OnInit {
             },
             {
                 dia: 'Viernes',
-                hora: '05:30 pm',
+                hora: '06:30 pm',
                 nome: 'Jonata Weber',
                 titulo: 'Observable Data Services',
                 desc: 'Se aprenderán conceptos de alto nivel sobre Observables y cómo construir servicios alrededor de las funcionalidades que estos nos ofrecen.',
@@ -83,7 +83,7 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Sebastian Gomez',
                 titulo: 'IONIC + TDD + PWA',
                 desc: 'Aprenderán desde cero hasta avanzado Unit Testing para Angular5/Ionic3 con PWA de fondo.',
-                imagem: '../../../assets/img/man.png'
+                imagem: '../../../assets/img/sebastian.jpg'
             }
         ];
     }
