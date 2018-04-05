@@ -109,7 +109,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     //facebook: 'https://facebook.com/',
                     twitter: 'https://twitter.com/sebasgojs'
                 },
-                bio: 'soy ingeniero de sistemas e Informática y Magister en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Soy Practice Lead Hybrid Apps en Globant y Organizo el GDG Medellín'
+                bio: 'Soy ingeniero de sistemas e Informática y Magister en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Soy Practice Lead Hybrid Apps en Globant y Organizo el GDG Medellín'
             },
         ];
     }
