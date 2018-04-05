@@ -5,7 +5,7 @@
 
     .area {
         @extend %flex-center-center;
-        @include justify-content(space-between);
+        @include justify-content(center);
         @include flex-wrap(wrap);
         width: 95%;
         max-width: 960px;
@@ -13,6 +13,12 @@
 
         img {
             max-height: 150px;
+        }
+
+        .foto {
+            border-radius: 50%;
+            margin: 5px;
+            border: 0.5px #333333 solid;
         }
     }
 }

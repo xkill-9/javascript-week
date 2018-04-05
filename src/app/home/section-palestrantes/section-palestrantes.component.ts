@@ -49,7 +49,7 @@ export class SectionPalestrantesComponent implements OnInit {
             {
                 nome: 'Carlos',
                 sobrenome: 'Angulo',
-                imagem: '../../../../assets/img/carlosangulo.jpg',
+                imagem: '../../../../assets/img/carlosangulo.png',
                 redes: {
                     github: 'http://github.com/',
                     facebook: 'https://facebook.com/',

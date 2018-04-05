@@ -41,9 +41,9 @@ export class SectionAgendaComponent implements OnInit {
                 dia: 'Miércoles',
                 hora: '06:30 pm - 7:30pm',
                 nome: 'Carlos Angulo',
-                titulo: 'Animation Builder',
-                desc: 'AnimationBuilder es un servicio inyectable que está disponible cuando los módulos BrowserAnimationsModule o NoopAnimationsModule se usan dentro de una aplicación',
-                imagem: '../../../assets/img/carlosangulo.jpg'
+                titulo: "Let's build your Angular Animations",
+                desc: 'Ya que una animación vale más que mil imágenes, aprendamos a transformar tus soluciones en atractivas aplicaciones dinámicas utilizando Angular AnimationBuilder. Comenzando desde cero a través de la comprensión de los principios de animación aplicados a la web, esta charla te guiará con seguridad desde simples ejemplos de transiciones de CSS a la tierra de niveles avanzados donde podrás moverte libremente como un rockstar.',
+                imagem: '../../../assets/img/carlosangulo.png'
             },
             {
                 dia: 'Jueves',
