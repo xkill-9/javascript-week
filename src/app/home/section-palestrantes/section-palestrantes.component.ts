@@ -98,7 +98,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     facebook: 'https://facebook.com/',
                     twitter: 'https://twitter.com/'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Fullstack developer, JavaScript Lover, dogs lover, curious, restless, a night soul.'
             },
             {
                 nome: 'Sebastian',
