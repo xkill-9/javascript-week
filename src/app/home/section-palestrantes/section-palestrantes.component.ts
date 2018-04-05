@@ -60,13 +60,13 @@ export class SectionPalestrantesComponent implements OnInit {
             {
                 nome: 'Juan',
                 sobrenome: 'Vasquez',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/juanfe.jpg',
                 redes: {
                     github: 'https://github.com/',
                     facebook: 'https://facebook.com/',
                     twitter: 'https://twitter.com/'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción.  En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.'
             },
             {
                 nome: 'Laura',
@@ -83,18 +83,16 @@ export class SectionPalestrantesComponent implements OnInit {
             {
                 nome: 'Sergio',
                 sobrenome: 'Valencia',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/sergio.jpg',
                 redes: {
-                    github: 'https://github.com/',
-                    facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    github: 'https://github.com/sergio9104'
                 },
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non faucibus tortor. Sed id tempor libero, at pharetra elit. In gravida diam augue, at cursus leo porttitor non. Ut aliquet vehicula metus. In vel tortor iaculis, tincidunt ipsum in, egestas justo. Quisque placerat ornare leo eget vulputate.'
+                bio: 'Soy Web UI developer developer en Globant con experiencia desarrollando múltiples aplicaciones en angular y react. Fanático de los libros y las nuevas tecnologías.'
             },
             {
                 nome: 'Alvaro',
                 sobrenome: 'Agamez',
-                imagem: '../../../../assets/img/man.png',
+                imagem: '../../../../assets/img/alvaro.jpg',
                 redes: {
                     github: 'https://github.com/',
                     facebook: 'https://facebook.com/',
@@ -111,7 +109,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     //facebook: 'https://facebook.com/',
                     twitter: 'https://twitter.com/sebasgojs'
                 },
-                bio: 'Practice Lead Hybrid Apps - Globant, GDG Medellín Organizer'
+                bio: 'Soy ingeniero de sistemas e Informática y Magister en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Soy Practice Lead Hybrid Apps en Globant y Organizo el GDG Medellín'
             },
         ];
     }
