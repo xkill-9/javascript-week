@@ -1,27 +1,27 @@
-# Landingpage do Evento do LFDev
+# Landingpage del Evento Angular Week
 
-Este projeto foi criado com angular/cli [Angular CLI](https://github.com/angular/angular-cli) versão 1.0.0-beta.32.3.
+Este proyecto fue creado con angular / cli [Angular CLI] (https://github.com/angular/angular-cli) versión 1.0.0-beta.32.3.
 
-## Instalando o projeto
+## Instalación del proyecto
 
-Para rodar este projeto você precisa ter instalado em sua máquina o **Node.js**, **NPM**, **@angular/cli**
+Para ejecutar este proyecto usted necesita tener instalado en su máquina el ** Node.js **, ** NPM **, ** @ angular / cli **
 
-- Clone este repositório `git clone https://github.com/lfdev-gdg/landingpage-evento.git`
-- Entre na pasta `cd landingpage-evento`
-- Instale as dependências `npm install`
-- Rode o servidor de teste `ng serve`
+- Clone este repositorio `git clone https: // github.com / lfdev-gdg / landingpage-evento.git`
+- Entre en la carpeta `cd landingpage-evento`
+- Instale las dependencias `npm install`
+- Gira el servidor de prueba `ng sirve '
 
-## Configurar o Firebase
+## Configurar el Firebase
 
-Você precisa preencher a configuração do firebase com as credenciais do seu projeto disponível no console do firebase.
-Esta configuração está no arquivo `firebase.config.ts` que fica na pasta `src/app/shared`:
+Necesitas llenar la configuración del firebase con las credenciales de su proyecto disponible en la consola del firebase.
+Esta configuración está en el archivo `firebase.config.ts` que se encuentra en la carpeta` src / app / shared`:
 
 ```
-export const firebaseConfig = {
-    apiKey: "sua api key",
-    authDomain: "url do auth",
-    databaseURL: "url do banco",
-    storageBucket: "url do storage",
-    messagingSenderId: "id do FCM"
+export const firebaseConfig =
+     apiKey: "su api key",
+     authDomain: "url del auth",
+     databaseURL: "url del banco",
+     storageBucket: "url del almacenamiento",
+     messagingSenderId: "id de FCM"
 };
 ```
