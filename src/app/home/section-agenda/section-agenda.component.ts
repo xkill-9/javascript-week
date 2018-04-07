@@ -88,11 +88,4 @@ export class SectionAgendaComponent implements OnInit {
         ];
     }
 
-    setSection(): void {
-        if (sessionStorage.getItem('sectionAgenda') === null) {
-            sessionStorage.setItem('sectionAgenda', 'true');
-            ga('send', 'event', 'Navegación', 'Visualización', 'Vió la agenda');
-        }
-    }
-
 }

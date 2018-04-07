@@ -11,11 +11,4 @@ export class SectionApoioComponent implements OnInit {
 
     ngOnInit() { }
 
-    setSection(): void {
-        if (sessionStorage.getItem('sectionApoio') === null) {
-            sessionStorage.setItem('sectionApoio', 'true');
-            ga('send', 'event', 'Navegação', 'Visualizou', 'Rolou até o apoio');
-        }
-    }
-
 }
