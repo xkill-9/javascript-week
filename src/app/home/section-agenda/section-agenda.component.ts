@@ -58,7 +58,7 @@ export class SectionAgendaComponent implements OnInit {
                 hora: '06:30 pm - 7:30pm',
                 nome: 'Laura Ciro',
                 titulo: 'Change Detection en Angular',
-                desc: 'Co-organizadora en @Pioneras-Dev , Rails Girls Med, NgGirls Med.Desarrolladora en Yuxi Global.‍ Me encanta el código, la música y la poesía, voy des-aprendiendo lo establecido, dando cabida a nuevas ideas/perspectivas y priorizando siempre la libertad, aprendiendo siempre de todxs y agradeciéndolo.',
+                desc: 'Descubramos juntxs la magía detrás de change detection, cómo funciona y algunos tips para mejorar el rendimiento en nuestras aplicaciones.',
                 imagem: '../../../assets/img/laura256.jpeg'
             },
             {
