@@ -53,9 +53,9 @@ export class SectionPalestrantesComponent implements OnInit {
                 redes: {
                     github: 'http://github.com/',
                     facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    twitter: 'https://twitter.com/CarlosACNS'
                 },
-                bio: 'Diseñador Industrial, Desarrollador Front-End, web, multimedia, animador.'
+                bio: 'Desarrollador Front End Senior en Yuxi Global. Coorganizador y MC de Angular Medellín. Diseñador industrial apasionado por el Diseño de Interfaces, Diseño 3D y las Animaciones 2D. Ha trabajado para importantes empresas como Ecopetrol e Indra y su largo recorrido en el desarrollo web, lo ha llevado a trabajar en países como México y Panamá.'
             },
             {
                 nome: 'Juan',
