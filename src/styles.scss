@@ -33,3 +33,21 @@ body {
         transform: scale(1);
     }
 }
+
+
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 40px;
+    background-color: #73b518;
+  }
+
+  .fixed-nav-bar li, .fixed-nav-bar a { 
+    height: 50px;
+    line-height: 50px;
+    color: white;
+  }
