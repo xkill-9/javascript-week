@@ -19,7 +19,8 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Carlos Rojas',
                 titulo: 'Arquitectura de Apps escalables en Angular',
                 desc: 'Aprenderemos como aplicar los patrones de diseño con los bloques de construcción de Angular para proyectos pensados en tener mas de 100 componentes.',
-                imagem: '../../../assets/img/carlos.jpg'
+                imagem: '../../../assets/img/carlos.jpg',
+                slides: 'https://slides.com/carlosrojas_o/angular-week-2018#/'
             },
             {
                 dia: 'Martes',
@@ -27,7 +28,8 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Vanessa Aristizabal',
                 titulo: 'Angular Material',
                 desc: 'Aprenderemos el uso del CDK para crear componentes increíbles y  de alta calidad, usando las características de Angular Material. .',
-                imagem: '../../../assets/img/vanessadrive.jpg'
+                imagem: '../../../assets/img/vanessadrive.jpg',
+                slides: 'https://slides.com/vanessamarely/angular-week-2018-3#/'
             },
             {
                 dia: 'Miércoles',
