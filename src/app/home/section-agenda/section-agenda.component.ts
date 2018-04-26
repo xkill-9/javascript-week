@@ -37,7 +37,9 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Juan Felipe Tobón',
                 titulo: 'De Reactive Forms y Otras Delicias',
                 desc: 'Aprende a crear formularios dinámicos y profundamente customizados, además de técnicas avanzadas de validación y optimización de manipulación de datos.',
-                imagem: '../../../assets/img/juantobon.jpg'
+                imagem: '../../../assets/img/juantobon.jpg',
+                slides: 'https://slides.com/juantobongt/reactive-forms-y-otras-delicias#/',
+                repo: 'https://github.com/juantobongt/ng-form-examples'
             },
             {
                 dia: 'Miércoles',
@@ -45,7 +47,9 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Carlos Angulo',
                 titulo: "Let's build your Angular Animations",
                 desc: 'Ya que una animación vale más que mil imágenes, aprendamos a transformar tus soluciones en atractivas aplicaciones dinámicas utilizando Angular AnimationBuilder. Comenzando desde cero a través de la comprensión de los principios de animación aplicados a la web, esta charla te guiará con seguridad desde simples ejemplos de transiciones de CSS a la tierra de niveles avanzados donde podrás moverte libremente como un rockstar.',
-                imagem: '../../../assets/img/carlosangulo.png'
+                imagem: '../../../assets/img/carlosangulo.png',
+                slides: 'https://slides.com/carlosangulo/angular-week-2018',
+                repo: 'https://github.com/CarlosAngulo/AnimationBuilder-basics'
             },
             {
                 dia: 'Jueves',
