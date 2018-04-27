@@ -2,28 +2,9 @@
   "hosting": {
     "public": "dist",
     "ignore": [
-      "bower.json",
-      "Gemfile",
-      "Gemfile.lock",
-      "Rakefile",
-      "CNAME",
-      "README.md",
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "headers": [ {
-      "source" : "**/*.@(jpg|jpeg|gif|png|js|webp|css)",
-      "headers" : [ {
-        "key" : "Cache-Control",
-        "value" : "max-age=604800"
-      } ]
-    }, {
-      "source" : "404.html",
-      "headers" : [ {
-        "key" : "Cache-Control",
-        "value" : "max-age=2592000"
-      } ]
-    } ]
+    ]
   }
 }
