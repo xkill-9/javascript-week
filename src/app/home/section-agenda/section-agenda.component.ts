@@ -81,10 +81,12 @@ export class SectionAgendaComponent implements OnInit {
             {
                 dia: 'Viernes',
                 hora: '05:30pm - 6:30pm',
-                nome: 'Sergio Vakebcua',
+                nome: 'Sergio Valencia',
                 titulo: 'Arquitectura de Datos con Observables.',
                 desc: 'Aprende que es el patrón observer y la programación reactiva, las ventajas que nos ofrecen, ejemplos de su uso con RxJS  y  de su implementación con angular.',
-                imagem: '../../../assets/img/sergio.jpg'
+                imagem: '../../../assets/img/sergio.jpg',
+                slides: 'https://slides.com/sergioandresvalenciayepes-1/angular-week-2018#/',
+                video: 'https://youtu.be/71DMNX-BHmw?t=24m21s'
             },
             {
                 dia: 'Viernes',
@@ -92,7 +94,10 @@ export class SectionAgendaComponent implements OnInit {
                 nome: 'Alvaro Agamez',
                 titulo: 'Observable Data Services',
                 desc: 'Se aprenderán conceptos de alto nivel sobre Observables y cómo construir servicios alrededor de las funcionalidades que estos nos ofrecen.',
-                imagem: '../../../assets/img/alvaro.jpg'
+                imagem: '../../../assets/img/alvaro.jpg',
+                slides: 'https://slides.com/codemaxter/angular-observable-data-services#/',
+                video: 'https://youtu.be/71DMNX-BHmw?t=1h7m11s'
+
             },
             {
                 dia: 'Sábado',
