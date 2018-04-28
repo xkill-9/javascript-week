@@ -86,7 +86,7 @@ export class SectionAgendaComponent implements OnInit {
                 desc: 'Aprende que es el patrón observer y la programación reactiva, las ventajas que nos ofrecen, ejemplos de su uso con RxJS  y  de su implementación con angular.',
                 imagem: '../../../assets/img/sergio.jpg',
                 slides: 'https://slides.com/sergioandresvalenciayepes-1/angular-week-2018#/',
-                repo: 'https://github.com/sergio9104/AngularWeek'
+                repo: 'https://github.com/sergio9104/AngularWeek',
                 video: 'https://youtu.be/71DMNX-BHmw?t=24m21s'
             },
             {
