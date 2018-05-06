@@ -107,6 +107,7 @@ export class SectionAgendaComponent implements OnInit {
                 titulo: 'IONIC + TDD + PWA',
                 desc: 'Aprenderán desde cero hasta avanzado Unit Testing para Angular5/Ionic3 con PWA de fondo.',
                 imagem: '../../../assets/img/sebastian.jpg',
+                slides: 'https://slides.com/sebastianalonsogomezarias/angular-week-2018#/',
                 repo: 'https://github.com/seagomezar/workshop-ionic-tdd-pwa'
             }
         ];

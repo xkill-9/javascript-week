@@ -30,7 +30,7 @@ export class SectionPalestrantesComponent implements OnInit {
                 imagem: '../../../../assets/img/vanessadrive.jpg',
                 redes: {
                     github: 'http://github.com/vanessamarely',
-                    facebook: 'https://www.facebook.com/vane.m.angel',
+                    // facebook: 'https://www.facebook.com/vane.m.angel',
                     twitter: 'https://twitter.com/vanessamarely'
                 },
                 bio: 'Soy ingeniera de Sistemas, trabajo como Web UI en Globant. Tengo 6 años de experiencia como Web Developer. Apasionada por la tecnología, los libros y el Anime.'
@@ -51,8 +51,8 @@ export class SectionPalestrantesComponent implements OnInit {
                 sobrenome: 'Angulo',
                 imagem: '../../../../assets/img/carlosangulo.png',
                 redes: {
-                    github: 'http://github.com/',
-                    facebook: 'https://facebook.com/',
+                    github: 'https://github.com/CarlosAngulo',
+                    // facebook: 'https://facebook.com/',
                     twitter: 'https://twitter.com/CarlosACNS'
                 },
                 bio: 'Desarrollador Front End Senior en Yuxi Global. Coorganizador y MC de Angular Medellín. Diseñador industrial apasionado por el Diseño de Interfaces, Diseño 3D y las Animaciones 2D. Ha trabajado para importantes empresas como Ecopetrol e Indra y su largo recorrido en el desarrollo web, lo ha llevado a trabajar en países como México y Panamá.'
@@ -62,9 +62,9 @@ export class SectionPalestrantesComponent implements OnInit {
                 sobrenome: 'Vasquez',
                 imagem: '../../../../assets/img/juanfe.jpg',
                 redes: {
-                    github: 'https://github.com/',
-                    facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    github: 'https://github.com/juanfevasquez',
+                    // facebook: 'https://facebook.com/',
+                    // twitter: 'https://twitter.com/'
                 },
                 bio: 'Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción.  En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.'
             },
@@ -73,9 +73,9 @@ export class SectionPalestrantesComponent implements OnInit {
                 sobrenome: 'Ciro',
                 imagem: '../../../assets/img/laura256.jpeg',
                 redes: {
-                    github: 'https://github.com/',
-                    facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    github: 'https://github.com/ltciro',
+                    // facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/ltciro'
                 },
                 bio: 'Co-organizadora en @Pioneras-Dev , Rails Girls Med, NgGirls Med.Desarrolladora en Yuxi Global.‍ Me encanta el código, la música y la poesía, voy des-aprendiendo lo establecido, dando cabida a nuevas ideas/perspectivas y priorizando siempre la libertad, aprendiendo siempre de todxs y agradeciéndolo.'
                
@@ -85,7 +85,8 @@ export class SectionPalestrantesComponent implements OnInit {
                 sobrenome: 'Valencia',
                 imagem: '../../../../assets/img/sergio.jpg',
                 redes: {
-                    github: 'https://github.com/sergio9104'
+                    github: 'https://github.com/sergio9104',
+                    twitter: 'https://twitter.com/sergio91044'
                 },
                 bio: 'Soy Web UI developer developer en Globant con experiencia desarrollando múltiples aplicaciones en angular y react. Fanático de los libros y las nuevas tecnologías.'
             },
@@ -94,9 +95,9 @@ export class SectionPalestrantesComponent implements OnInit {
                 sobrenome: 'Agamez',
                 imagem: '../../../../assets/img/alvaro.jpg',
                 redes: {
-                    github: 'https://github.com/',
-                    facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/'
+                    // github: 'https://github.com/',
+                    // facebook: 'https://facebook.com/',
+                    twitter: 'https://twitter.com/CodeMaxter'
                 },
                 bio: 'Fullstack developer, JavaScript Lover, dogs lover, curious, restless, a night soul.'
             },
