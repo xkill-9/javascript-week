@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "angularweek"
+    "default": "angularweek",
+    "prod": "js-week"
   }
 }

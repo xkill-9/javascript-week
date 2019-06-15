@@ -6,7 +6,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {MaterializeModule} from 'angular2-materialize';
 
 import {AppComponent} from './app.component';
-import {CoreModule} from "./core/core.module";
+import {CoreModule} from './core/core.module';
 
 @NgModule({
     declarations: [
