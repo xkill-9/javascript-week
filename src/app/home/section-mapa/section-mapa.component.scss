@@ -5,6 +5,7 @@
     @extend %flex-center-center;
     //background-image: url(./../../../assets/img/mapa.jpg);
     height: 65vh;
+    background-color: rgba(255,255,255,0.95);
 
     .area {
         width: 95%;
@@ -13,7 +14,7 @@
         .box {
             width: 40%;
             padding: 2.5em;
-            background-color: rgba(255, 255, 255, .8);
+            background-color: rgba(255, 255, 255, 1);
 
             h4 {
                 @extend %flex-center-left;
