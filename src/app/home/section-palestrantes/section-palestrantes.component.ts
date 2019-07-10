@@ -14,103 +14,162 @@ export class SectionPalestrantesComponent implements OnInit {
     ngOnInit() {
         this.palestrantes = [
             {
-                nome: 'Carlos',
-                sobrenome: 'Rojas',
-                imagem: '../../../../assets/img/carlos.jpg',
-                redes: {
-                    github: 'http://github.com/carlosrojaso',
-                    facebook: 'https://www.facebook.com/carlosrojas84',
-                    twitter: 'https://twitter.com/carlosrojas_o'
+                nome        : 'Cristian Danilo',
+                sobrenome   : 'Gutiérrez',
+                imagem      : 'https://avatars2.githubusercontent.com/u/22488812?s=460&v=4',
+                redes       : {
+                    twitter : 'https://twitter.com/danilo1905g',
+                    github  : 'https://github.com/CrisDan1905',
                 },
-                bio: 'Google Product Strategy Expert.  Web UI en Globant.  Interesado principalmente en Progressive Web Apps, Angular y Firebase. En mi tiempo libre escribo libros y hago videos en Youtube.'
+                bio         : 'Pendiente...',
             },
+
             {
-                nome: 'Vanessa',
-                sobrenome: 'Aristizabal',
-                imagem: '../../../../assets/img/vanessadrive.jpg',
-                redes: {
-                    github: 'http://github.com/vanessamarely',
-                    // facebook: 'https://www.facebook.com/vane.m.angel',
-                    twitter: 'https://twitter.com/vanessamarely'
+                nome        : 'Cesar',
+                sobrenome   : 'Suarez',
+                imagem      : 'https://pbs.twimg.com/profile_images/1028837466340352000/vSHCLp8E_400x400.jpg',
+                redes       : {
+                    twitter : 'https://twitter.com/cesarlarsson',
+                    github  : 'https://github.com/cesarlarsson',
                 },
-                bio: 'Soy ingeniera de Sistemas, trabajo como Web UI en Globant. Tengo 6 años de experiencia como Web Developer. Apasionada por la tecnología, los libros y el Anime.'
+                bio         : 'Pendiente...',
             },
+
             {
-                nome: 'Juan',
-                sobrenome: 'Tobon',
-                imagem: '../../../../assets/img/juantobon.jpg',
-                redes: {
-                    github: 'http://github.com/juantobongt',
-                    //facebook: 'https://www.facebook.com/',
-                    twitter: 'https://twitter.com/juantobongt'
-                },
-                bio: 'Web UI Developer en Globant, con 6 años de experiencia en desarrollo Front-End. Apasionado por la creación de experiencias digitales atractivas, la música y las artes visuales.'
-            },
-            {
-                nome: 'Carlos',
-                sobrenome: 'Angulo',
-                imagem: '../../../../assets/img/carlosangulo.png',
-                redes: {
-                    github: 'https://github.com/CarlosAngulo',
-                    // facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/CarlosACNS'
-                },
-                bio: 'Desarrollador Front End Senior en Yuxi Global. Coorganizador y MC de Angular Medellín. Diseñador industrial apasionado por el Diseño de Interfaces, Diseño 3D y las Animaciones 2D. Ha trabajado para importantes empresas como Ecopetrol e Indra y su largo recorrido en el desarrollo web, lo ha llevado a trabajar en países como México y Panamá.'
-            },
-            {
-                nome: 'Juan',
-                sobrenome: 'Vasquez',
-                imagem: '../../../../assets/img/juanfe.jpg',
-                redes: {
-                    github: 'https://github.com/juanfevasquez',
-                    // facebook: 'https://facebook.com/',
-                    // twitter: 'https://twitter.com/'
-                },
-                bio: 'Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción.  En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.'
-            },
-            {
-                nome: 'Laura',
-                sobrenome: 'Ciro',
-                imagem: '../../../assets/img/laura256.jpeg',
-                redes: {
-                    github: 'https://github.com/ltciro',
-                    // facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/ltciro'
-                },
-                bio: 'Co-organizadora en @Pioneras-Dev , Rails Girls Med, NgGirls Med.Desarrolladora en Yuxi Global.‍ Me encanta el código, la música y la poesía, voy des-aprendiendo lo establecido, dando cabida a nuevas ideas/perspectivas y priorizando siempre la libertad, aprendiendo siempre de todxs y agradeciéndolo.'
-               
-            },
-            {
-                nome: 'Sergio',
-                sobrenome: 'Valencia',
-                imagem: '../../../../assets/img/sergio.jpg',
-                redes: {
-                    github: 'https://github.com/sergio9104',
-                    twitter: 'https://twitter.com/sergio91044'
-                },
-                bio: 'Soy Web UI developer developer en Globant con experiencia desarrollando múltiples aplicaciones en angular y react. Fanático de los libros y las nuevas tecnologías.'
-            },
-            {
-                nome: 'Alvaro',
-                sobrenome: 'Agamez',
-                imagem: '../../../../assets/img/alvaro.jpg',
-                redes: {
-                    // github: 'https://github.com/',
-                    // facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/CodeMaxter'
-                },
-                bio: 'Fullstack developer, JavaScript Lover, dogs lover, curious, restless, a night soul.'
-            },
-            {
-                nome: 'Sebastian',
-                sobrenome: 'Gomez',
-                imagem: '../../../../assets/img/sebastian.jpg',
-                redes: {
-                    github: 'https://github.com/seagomezar',
-                    //facebook: 'https://facebook.com/',
-                    twitter: 'https://twitter.com/sebasgojs'
+                nome        : 'Sebastian',
+                sobrenome   : 'Gomez',
+                imagem      : '../../../../assets/img/sebastian.jpg',
+                redes       : {
+                    github  : 'https://github.com/seagomezar',
+                    twitter : 'https://twitter.com/sebasgojs'
                 },
                 bio: 'Soy ingeniero de sistemas e Informática y Magister en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Soy Practice Lead Hybrid Apps en Globant y Organizo el GDG Medellín'
+            },
+
+            {
+                nome        : 'Paula',
+                sobrenome   : 'Mazo Cortés',
+                imagem      : 'https://avatars2.githubusercontent.com/u/22626905?s=460&v=4',
+                redes       : {
+                    twitter : 'https://twitter.com/Mazoster',
+                    github  : 'https://github.com/pmazoc/',
+                },
+                bio         : 'Pendiente...',
+            },
+
+            {
+                nome        : 'Liz',
+                sobrenome   : 'Parody',
+                imagem      : 'https://pbs.twimg.com/profile_images/1139639950490644486/bkatzR_J_400x400.jpg',
+                redes       : {
+                    twitter : 'https://twitter.com/lizparody23',
+                    github  : 'https://github.com/lizparody',
+                },
+                bio         : 'Pendiente...',
+            },
+
+            {
+                nome        : 'Jhonatan',
+                sobrenome   : 'Giraldo',
+                imagem      : 'https://avatars2.githubusercontent.com/u/6934447?s=460&v=4',
+                redes       : {
+                    github  : 'https://github.com/Jhonatangiraldo',
+                },
+                bio         : 'Pendiente...',
+            },
+
+            {
+                nome        : 'Maria',
+                sobrenome   : 'Giraldo',
+                imagem      : 'https://pbs.twimg.com/profile_images/451152111603318784/xEAEpNhy_400x400.jpeg',
+                redes       : {
+                    twitter : 'https://twitter.com/mariadriada',
+                    github  : 'https://github.com/mariadriada',
+                },
+                bio         : 'Pendiente...',
+            },
+
+            {
+                nome        : 'Andrea',
+                sobrenome   : 'Cordoba',
+                imagem      : 'https://pbs.twimg.com/profile_images/1049677834233569280/HmztucNe_400x400.jpg',
+                redes       : {
+                    twitter : 'https://twitter.com/lua_andre',
+                    github  : 'https://github.com/andre-code',
+                },
+                bio         : 'Pendiente...',
+            },
+
+            {
+                nome        : 'Sergio',
+                sobrenome   : 'Valencia',
+                imagem      : 'https://pbs.twimg.com/profile_images/1002982260633718784/NxIQNR6L_400x400.jpg',
+                redes       : {
+                    twitter : 'https://twitter.com/sergio91044',
+                    github  : 'https://github.com/sergio9104',
+                },
+                bio         : 'Pendiente...',
+            },
+
+            {
+                nome        : 'Johann Paul',
+                sobrenome   : 'Echavarría Zapata',
+                imagem      : 'https://pbs.twimg.com/profile_images/954018981244997632/J_3DPptq_400x400.jpg',
+                redes       : {
+                    twitter : 'https://twitter.com/abrupto',
+                    github  : 'https://github.com/katio',
+                },
+                bio         : 'Pendiente...',
+            },
+
+            {
+                nome        : 'Juan Camilo',
+                sobrenome   : 'Diaz Ortega',
+                imagem      : 'https://pbs.twimg.com/profile_images/1055300540912074752/Ar7V9bTV_400x400.jpg',
+                redes       : {
+                    twitter : 'https://twitter.com/jcamilodo',
+                },
+                bio         : 'Data Architect en Globant, mas de 18 años de experiencia en desarrollo de software, apasionado de los lenguajes de programacion, desarrollo de Video Games, Machine Learning y del Big Data y todo lo que se ha venido desarrollando con estos.',
+            },
+
+            {
+                nome        : 'Santiago',
+                sobrenome   : 'Angee',
+                imagem      : 'https://media.licdn.com/dms/image/C4E03AQHaatAfDs50yg/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=Q_98s7WCThknbFP7X-_uuMqefTBNViRkgruDSOwv1Og',
+                redes       : {
+
+                },
+                bio         : 'Hermano de dos hermosos gatos, amante de los gatos y los perros, la cerveza y el kebab. Data Architect, orgullosamente Glober, políglota, Ingeniero de Sistemas de la Universidad EAFIT, Magíster en ingeniería de la misma Universidad.',
+            },
+
+            {
+                nome        : 'Jose Luis',
+                sobrenome   : 'Sepulveda',
+                imagem      : 'https://media.licdn.com/dms/image/C4E03AQGTcpM7mQrbOQ/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=JpeFtTxUt1gNx-Z-YwvjRjBswO5A-MfW3EA7YdIBQ8c',
+                redes       : {
+
+                },
+                bio         : 'Big data architect at Globant, 10 anos de experiencia en el desarrollo.',
+            },
+
+            {
+                nome        : 'Hilder',
+                sobrenome   : 'Umaña',
+                imagem      : 'https://media.licdn.com/dms/image/C5603AQES0jyuwDLjkA/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=0RnLek0grfu4s0wRs32Z741oKrdyWzbZ0oqFqCelE4s',
+                redes       : {
+
+                },
+                bio         : 'BI Architect con más de 17 años de experiencia en Business Intelligence y análisis de datos, trabajado para sectores de banca, retail, financiero, seguros',
+            },
+
+            {
+                nome        : 'Danny',
+                sobrenome   : 'Cabezas',
+                imagem      : 'https://media.licdn.com/dms/image/C4E03AQFvAycVIAa9nA/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=btdzaiy420Vj3z7Tx_KhlHhgpy2f5eY-OIb0Dlk6ew8',
+                redes       : {
+
+                },
+                bio         : 'Desarrollador con mas de 10 anos de experiencia en Python. Ademas del desarrollo, mi otra pasion es la Seguridad informatica.',
             },
         ];
     }
