@@ -21,7 +21,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/danilo1905g',
                     github  : 'https://github.com/CrisDan1905',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Desarrollador Front-End en Globant, con experiencia en NodeJS, GraphQL y 3+ años con Angular. Apasionado por la musica y la tecnología.',
             },
 
             {
@@ -32,7 +32,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/cesarlarsson',
                     github  : 'https://github.com/cesarlarsson',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Ingeniero Electrónico, especialista en desarrollo de software, tenista y carpintero amateur.',
             },
 
             {
@@ -43,7 +43,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     github  : 'https://github.com/seagomezar',
                     twitter : 'https://twitter.com/sebasgojs'
                 },
-                bio: 'Soy ingeniero de sistemas e Informática y Magister en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Soy Practice Lead Hybrid Apps en Globant y Organizo el GDG Medellín'
+                bio         : 'Soy ingeniero de sistemas e Informática y Magister en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Soy Practice Lead Hybrid Apps en Globant y Organizo el GDG Medellín'
             },
 
             {
@@ -54,7 +54,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/Mazoster',
                     github  : 'https://github.com/pmazoc/',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Under construction...',
             },
 
             {
@@ -65,7 +65,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/lizparody23',
                     github  : 'https://github.com/lizparody',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Liz es Developer Relations Manager en NodeSource y organiza diferentes eventos de comunidades como JSConf Colombia, Pioneras Developers, Startup Weekend y ha sido speaker en EmpireJS, MedellinJS, PionerasDev, Hacker Dojo entre otros. Le encanta compartir conocimiento, promover el ecosistema de JavaScript y Node.js y participar en eventos y conferencias de tecnología que tengan un impacto positivo en las comunidades.',
             },
 
             {
@@ -75,7 +75,7 @@ export class SectionPalestrantesComponent implements OnInit {
                 redes       : {
                     github  : 'https://github.com/Jhonatangiraldo',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Manizaleño. Me gusta viajar, leer, ver anime y debatir :)',
             },
 
             {
@@ -86,7 +86,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/mariadriada',
                     github  : 'https://github.com/mariadriada',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Hola, Soy Maria Giraldo. Informática de profesión y <coder/> por naturaleza. Mi fundamento de vida se basa en hacer lo que me gusta, siempre de la mejor forma. Soy hermana menor de 6, tengo un hijo perro llamado Marzo, que amo muchísimo. Hace 10 años el código llegó a mi vida, desde ese momento comprendí la esencia de mi comportamiento binario. He participado en proyectos de software en diferentes roles, actualmente me desempeño como Senior Front-end Developer en Parrolabs. ¡Amo el software y todo a su alrededor! Sobretodo Js Core. Muchas gracias.',
             },
 
             {
@@ -97,7 +97,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/lua_andre',
                     github  : 'https://github.com/andre-code',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Under construction...',
             },
 
             {
@@ -108,7 +108,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/sergio91044',
                     github  : 'https://github.com/sergio9104',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Desarrollador Front End con 4 años de experiencia usando Angular y React, fanático de los libros y las nuevas tecnológicas.',
             },
 
             {
@@ -119,7 +119,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/abrupto',
                     github  : 'https://github.com/katio',
                 },
-                bio         : 'Pendiente...',
+                bio         : 'Johann es un desarrollador de software con más de 14 años trabajando en el medio, es también magíster en ingeniería de software y maestro internacional de ajedrez.',
             },
 
             {
