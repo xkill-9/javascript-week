@@ -97,7 +97,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/lua_andre',
                     github  : 'https://github.com/andre-code',
                 },
-                bio         : 'Under construction...',
+                bio         : 'Andrea es Web UI developer en Globant, ha trabajado con tecnologías Frontend desde hace 4 años y 7 cómo desarrolladora full stack. Le encanta correr, practicar Capoeira, los gatos y el vino.',
             },
 
             {
