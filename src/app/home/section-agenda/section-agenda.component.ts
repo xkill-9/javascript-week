@@ -134,15 +134,6 @@ export class SectionAgendaComponent implements OnInit {
                 titulo: 'Detectando problemas de Performance en Python.',
                 desc: 'En esta charla implementaremos una solución lenta (pero correcta) de código Python, analizaremos los datos de perfilado para investigar ¿por qué son lentos? y exploraremos múltiples rutas para mejorar el rendimiento, incluyendo algoritmos más eficientes y el uso de herramientas que nos ofrece el propio Python.',
                 imagem: 'https://media.licdn.com/dms/image/C4E03AQFvAycVIAa9nA/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=btdzaiy420Vj3z7Tx_KhlHhgpy2f5eY-OIb0Dlk6ew8'
-            },
-            {
-                dia: 'Viernes',
-                hora: '08:00pm - 8:30pm',
-                nome: 'Juan Camilo Diaz Ortega',
-                titulo: 'Google Cloud Platform Machine Learning Tools',
-                desc: 'Que nos ofrece la Nube de Google para los developers and data scientists puedan crear y correr modelos de Machine Learning.',
-                imagem: 'https://pbs.twimg.com/profile_images/1055300540912074752/Ar7V9bTV_400x400.jpg'
-
             }
         ];
     }
