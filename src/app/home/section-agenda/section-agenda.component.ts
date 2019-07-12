@@ -15,50 +15,39 @@ export class SectionAgendaComponent implements OnInit {
         this.agendas = [
             {
                 dia: 'Martes',
-                hora: '05:30pm - 6:30pm',
-                nome: 'Carlos Rojas',
-                titulo: 'Arquitectura de Apps escalables en Angular',
-                desc: 'Aprenderemos como aplicar los patrones de diseño con los bloques de construcción de Angular para proyectos pensados en tener mas de 100 componentes.',
-                imagem: '../../../assets/img/carlos.jpg',
-                slides: 'https://slides.com/carlosrojas_o/angular-week-2018#/',
-                video: 'https://youtu.be/62EtV33NWmc?t=25m25s'
+                hora: '06:00pm - 6:30pm',
+                nome: 'Cristian Gutiérrez',
+                titulo: 'Concurrencia en JS: Porqué tu "setTimeout" te está mintiendo',
+                desc: 'El tema principal es comprender el funcionamiento basico del modelo de concurrencia de JS. Entender conceptos como el stack, event loop, event queue y event job,  para que lo usan los motores de JS y con que se comen. Tambien se busca aclarar un mal entendimiento de metodos asincronicos como los "setTimeout" y demás.',
+                imagem: 'https://avatars2.githubusercontent.com/u/22488812?s=460&v=4'
             },
             {
                 dia: 'Martes',
-                hora: '06:30 pm - 7:30pm',
-                nome: 'Vanessa Aristizabal',
-                titulo: 'Angular Material',
-                desc: 'Aprenderemos el uso del CDK para crear componentes increíbles y  de alta calidad, usando las características de Angular Material. .',
-                imagem: '../../../assets/img/vanessadrive.jpg',
-                slides: 'https://slides.com/vanessamarely/angular-week-2018-3#/',
-                repo: 'https://github.com/vanessamarely/angular-material-cdk',
-                video: 'https://youtu.be/62EtV33NWmc?t=45m45s'
+                hora: '06:30 pm - 7:00pm',
+                nome: 'Sebastian Gomez',
+                titulo: 'Implementando MapReduce con Web Workers',
+                desc: 'En esta charla vamos a ver el uso de Web Workers para optimizar nuestro trabajo con Javascript fuera del Single Thread Y aplicar técnicas de computación distribuida (mapreduce) con ellos.',
+                imagem: '../../../assets/img/sebastian.jpg'
             },
             {
-                dia: 'Miércoles',
-                hora: '05:30pm - 6:30pm',
-                nome: 'Juan Felipe Tobón',
-                titulo: 'De Reactive Forms y Otras Delicias',
-                desc: 'Aprende a crear formularios dinámicos y profundamente customizados, además de técnicas avanzadas de validación y optimización de manipulación de datos.',
-                imagem: '../../../assets/img/juantobon.jpg',
-                slides: 'https://slides.com/juantobongt/reactive-forms-y-otras-delicias#/',
-                repo: 'https://github.com/juantobongt/ng-form-examples',
-                video: 'https://youtu.be/mPMIFaVHLlY?t=11m24s'
+                dia: 'Martes',
+                hora: '07:30pm - 8:00pm',
+                nome: 'Paula Mazo',
+                titulo: 'Programación Funcional',
+                desc: 'Pasaremos por la definición de algunos conceptos de la programación funcional hasta explorar cómo se relacionan con las buenas prácticas del desarrollo.',
+                imagem: 'https://avatars2.githubusercontent.com/u/22626905?s=460&v=4'
             },
             {
-                dia: 'Miércoles',
-                hora: '06:30 pm - 7:30pm',
-                nome: 'Carlos Angulo',
-                titulo: "Let's build your Angular Animations",
-                desc: 'Ya que una animación vale más que mil imágenes, aprendamos a transformar tus soluciones en atractivas aplicaciones dinámicas utilizando Angular AnimationBuilder. Comenzando desde cero a través de la comprensión de los principios de animación aplicados a la web, esta charla te guiará con seguridad desde simples ejemplos de transiciones de CSS a la tierra de niveles avanzados donde podrás moverte libremente como un rockstar.',
-                imagem: '../../../assets/img/carlosangulo.png',
-                slides: 'https://slides.com/carlosangulo/angular-week-2018',
-                repo: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-                video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+                dia: 'Martes',
+                hora: '08:00 pm - 8:30pm',
+                nome: 'Juan Camilo Diaz',
+                titulo: "Google Cloud Platform Big Data Tools",
+                desc: 'Cuales son las herramientas orientadas a Big Data que podemos encontrar en la Nube de Google.',
+                imagem: 'https://pbs.twimg.com/profile_images/1055300540912074752/Ar7V9bTV_400x400.jpg'
             },
             {
-                dia: 'Jueves',
-                hora: '05:30 pm',
+                dia: 'Miercoles',
+                hora: '06:00pm - 6:30pm',
                 nome: 'Juan Felipe Vasquez',
                 titulo: 'Patrones arquitectónicos de CSS para Angular',
                 desc: 'Crear estructuras de css escalables, reusables, debugueables y adaptables a las nuevas tendencias tecnológicas.  Comprender los distintos scopes que existen en una app de angular (global y component).  Cómo afecta la especificidad y el performance la estructura de nuestro css',
