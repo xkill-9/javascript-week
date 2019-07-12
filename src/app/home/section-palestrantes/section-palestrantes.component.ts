@@ -54,7 +54,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     twitter : 'https://twitter.com/Mazoster',
                     github  : 'https://github.com/pmazoc/',
                 },
-                bio         : 'Under construction...',
+                bio         : 'Conocida como "Mazo" desde el colegio. Ha trabajado en las áreas de Infraestructura, DevOps y en los últimos dos años en desarrollo 💛. Web UI Developer en Globant, amante de Javascript y el clean code... Si le queda tiempo en el sprint :v',
             },
 
             {
@@ -91,13 +91,13 @@ export class SectionPalestrantesComponent implements OnInit {
 
             {
                 nome        : 'Andrea',
-                sobrenome   : 'Cordoba',
-                imagem      : 'https://pbs.twimg.com/profile_images/1049677834233569280/HmztucNe_400x400.jpg',
+                sobrenome   : 'Córdoba',
+                imagem      : '../../../../assets/img/andrea-cordoba.jpg',
                 redes       : {
                     twitter : 'https://twitter.com/lua_andre',
                     github  : 'https://github.com/andre-code',
                 },
-                bio         : 'Under construction...',
+                bio         : 'Andrea es Web UI developer en Globant, ha trabajado con tecnologías Frontend desde hace 4 años y 7 cómo desarrolladora full stack. Le encanta correr, practicar Capoeira, los gatos y el vino.',
             },
 
             {
