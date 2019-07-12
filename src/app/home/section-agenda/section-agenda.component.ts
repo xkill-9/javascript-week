@@ -49,55 +49,34 @@ export class SectionAgendaComponent implements OnInit {
                 dia: 'Miercoles',
                 hora: '06:00pm - 6:30pm',
                 nome: 'Juan Felipe Vasquez',
-                titulo: 'Patrones arquitectónicos de CSS para Angular',
-                desc: 'Crear estructuras de css escalables, reusables, debugueables y adaptables a las nuevas tendencias tecnológicas.  Comprender los distintos scopes que existen en una app de angular (global y component).  Cómo afecta la especificidad y el performance la estructura de nuestro css',
-                imagem: '../../../assets/img/juanfe.jpg',
-                slides: 'https://slides.com/juanfevasquez/angular-week-2018',
-                repo: 'https://github.com/juanfevasquez/CssArchitecturePatternsForNg',
-                video: 'https://youtu.be/Y0oDyOQ4Y2o?t=11m38s'
+                titulo: 'RxJS 101',
+                desc: 'La idea de la charla es mostrar las bondades de la programa reactiva en Javascript usando  RxJS y algunos de los operadores más utiles que podrian usar en sus proyectos',
+                imagem: '../../../assets/img/juanfe.jpg'
             },
             {
-                dia: 'Jueves',
-                hora: '06:30 pm - 7:30pm',
+                dia: 'Miercoles',
+                hora: '06:30pm - 7:00pm',
                 nome: 'Laura Ciro',
-                titulo: 'Change Detection en Angular',
-                desc: 'Descubramos juntxs la magía detrás de change detection, cómo funciona y algunos tips para mejorar el rendimiento en nuestras aplicaciones.',
-                imagem: '../../../assets/img/laura256.jpeg',
-                slides: 'https://slides.com/ltciro/angular-week-2018-6',
-                repo: 'https://github.com/ltciro/change_detection',
-                video: 'https://youtu.be/Y0oDyOQ4Y2o?t=1h16m49s'
+                titulo: 'Mastering web components: Without any framework',
+                desc: "Let's figured out what we can do with the new web components",
+                imagem: '../../../assets/img/laura256.jpeg'
             },
             {
-                dia: 'Viernes',
-                hora: '05:30pm - 6:30pm',
+                dia: 'Miercoles',
+                hora: '07:30pm - 8:00pm',
                 nome: 'Sergio Valencia',
-                titulo: 'Arquitectura de Datos con Observables.',
-                desc: 'Aprende que es el patrón observer y la programación reactiva, las ventajas que nos ofrecen, ejemplos de su uso con RxJS  y  de su implementación con angular.',
-                imagem: '../../../assets/img/sergio.jpg',
-                slides: 'https://slides.com/sergioandresvalenciayepes-1/angular-week-2018#/',
-                repo: 'https://github.com/sergio9104/AngularWeek',
-                video: 'https://youtu.be/71DMNX-BHmw?t=24m21s'
+                titulo: 'Error Handling Best Practices',
+                desc: 'Every developer wants to write code that works. And a lot of times, chances of your program running as expected reduces to one thing: errors.',
+                imagem: '../../../assets/img/sergio.jpg'
             },
             {
-                dia: 'Viernes',
-                hora: '06:30 pm - 7:30pm',
+                dia: 'Miercoles',
+                hora: '08:00pm - 8:30pm',
                 nome: 'Alvaro Agamez',
-                titulo: 'Observable Data Services',
-                desc: 'Se aprenderán conceptos de alto nivel sobre Observables y cómo construir servicios alrededor de las funcionalidades que estos nos ofrecen.',
-                imagem: '../../../assets/img/alvaro.jpg',
-                slides: 'https://slides.com/codemaxter/angular-observable-data-services#/',
-                video: 'https://youtu.be/71DMNX-BHmw?t=1h7m11s'
+                titulo: 'How to implement data science projects in the real world',
+                desc: 'Lecciones aprendidas de tres casos de uso en la implementación de grandes proyectos de datos y análisis para el sector público y privado.',
+                imagem: '../../../assets/img/alvaro.jpg'
 
-            },
-            {
-                dia: 'Sábado',
-                hora: '09:00 am - 01:00 pm',
-                nome: 'Sebastian Gomez',
-                titulo: 'IONIC + TDD + PWA',
-                desc: 'Aprenderán desde cero hasta avanzado Unit Testing para Angular5/Ionic3 con PWA de fondo.',
-                imagem: '../../../assets/img/sebastian.jpg',
-                slides: 'https://slides.com/sebastianalonsogomezarias/angular-week-2018#/',
-                repo: 'https://github.com/seagomezar/workshop-ionic-tdd-pwa'
             }
         ];
     }
