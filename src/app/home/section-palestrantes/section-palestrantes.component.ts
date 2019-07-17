@@ -43,7 +43,7 @@ export class SectionPalestrantesComponent implements OnInit {
                     github  : 'https://github.com/seagomezar',
                     twitter : 'https://twitter.com/sebasgojs'
                 },
-                bio         : 'Soy ingeniero de sistemas e Informática y Magister en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Soy Practice Lead Hybrid Apps en Globant y Organizo el GDG Medellín'
+                bio         : 'Mi nombre es Sebastián Gómez, soy Google Developer Expert in Web Technologies, estudié ingeniería de sistemas e Informática y una maestría en Ingeniería de Sistemas de la Universidad Nacional de Colombia. Actualmente trabajo en Globant como arquitecto de Web UI con énfasis en aplicaciones híbridas y cross compiladas. Soy el organizador del Google Developers Group de Medellín, así que contactame si quieres dar alguna charla o participar actuamente de esta comunidad.'
             },
 
             {
@@ -120,6 +120,17 @@ export class SectionPalestrantesComponent implements OnInit {
                     github  : 'https://github.com/katio',
                 },
                 bio         : 'Johann es un desarrollador de software con más de 14 años trabajando en el medio, es también magíster en ingeniería de software y maestro internacional de ajedrez.',
+            },
+
+            {
+                nome        : 'Cristian',
+                sobrenome   : 'Moreno',
+                imagem      : 'https://pbs.twimg.com/profile_images/1105331026027573248/drFcWUvd_400x400.jpg',
+                redes       : {
+                    twitter : 'https://twitter.com/khriztianmoreno',
+                    github  : 'https://github.com/khriztianmoreno',
+                },
+                bio         : 'FullStack Javascript Developer and Community builder 👨🏻‍💻🤝 👨🏻‍🏫 Producer @commitfm 🎙📻 Co-Organize of @MedellinJS @avanet On a daily basis I use: JavaScript (ES6), React, Gatsby, CSS (inJS), GraphQL, just to name the most important bits.',
             },
 
             {

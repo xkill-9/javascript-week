@@ -134,6 +134,14 @@ export class SectionAgendaComponent implements OnInit {
                 titulo: 'Detectando problemas de Performance en Python.',
                 desc: 'En esta charla implementaremos una solución lenta (pero correcta) de código Python, analizaremos los datos de perfilado para investigar ¿por qué son lentos? y exploraremos múltiples rutas para mejorar el rendimiento, incluyendo algoritmos más eficientes y el uso de herramientas que nos ofrece el propio Python.',
                 imagem: 'https://media.licdn.com/dms/image/C4E03AQFvAycVIAa9nA/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=btdzaiy420Vj3z7Tx_KhlHhgpy2f5eY-OIb0Dlk6ew8'
+            },
+            {
+                dia     : 'Viernes',
+                hora    : '8:00pm - 8:30pm',
+                nome    : 'Cristian Moreno',
+                titulo  : 'Introducing JAMstack - What we talk about when we talk about modern web tools',
+                desc    : 'Look at today\'s static sites. Thanks to modern browsers, JavaScript, third-party APIs, and Markup, they\'re anything but static. It\'s time for a new and better way to talk to developers, clients and each other about the work that we do. That way is the JAM stack. The JAM stack is more than just a name change. It\'s an acknowledgment that the way we develop for the web is changing. Developers are moving away from legacy development workflows and databases to new ones built around Git and the API economy. Why? Because JAM stack development delivers better performance, higher security, lower cost of scaling and better developer experience.',
+                imagem  : 'https://pbs.twimg.com/profile_images/1105331026027573248/drFcWUvd_400x400.jpg'
             }
         ];
     }
