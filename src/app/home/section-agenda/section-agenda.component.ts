@@ -130,10 +130,10 @@ export class SectionAgendaComponent implements OnInit {
             {
                 dia: 'Viernes',
                 hora: '07:30pm - 8:00pm',
-                nome: 'Danny Cabezas',
-                titulo: 'Detectando problemas de Performance en Python.',
-                desc: 'En esta charla implementaremos una solución lenta (pero correcta) de código Python, analizaremos los datos de perfilado para investigar ¿por qué son lentos? y exploraremos múltiples rutas para mejorar el rendimiento, incluyendo algoritmos más eficientes y el uso de herramientas que nos ofrece el propio Python.',
-                imagem: 'https://media.licdn.com/dms/image/C4E03AQFvAycVIAa9nA/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=btdzaiy420Vj3z7Tx_KhlHhgpy2f5eY-OIb0Dlk6ew8'
+                nome: 'Lorena Correa Mejia',
+                titulo: 'Siguiente nivel en pruebas funcionales con Cypress',
+                desc: 'Cypress es una herrramienta para manejar pruebas funcionales en frameworks de JavaScript, React, Vue, Angular etc, logrando simular un usuario real y de esta manera podremos tener como desarrolladores  seguridad de lo que estamos entregando al cliente',
+                imagem: 'https://pbs.twimg.com/profile_images/1097718954796167168/qlZkpQhl_400x400.jpg'
             },
             {
                 dia     : 'Viernes',
