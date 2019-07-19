@@ -174,13 +174,14 @@ export class SectionPalestrantesComponent implements OnInit {
             },
 
             {
-                nome        : 'Danny',
-                sobrenome   : 'Cabezas',
-                imagem      : 'https://media.licdn.com/dms/image/C4E03AQFvAycVIAa9nA/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=btdzaiy420Vj3z7Tx_KhlHhgpy2f5eY-OIb0Dlk6ew8',
+                nome        : 'Lorena',
+                sobrenome   : 'Correa Mejia',
+                imagem      : 'https://pbs.twimg.com/profile_images/1097718954796167168/qlZkpQhl_400x400.jpg',
                 redes       : {
-
+                    twitter : 'https://twitter.com/lavadani',
+                    github  : 'https://github.com/Paolore',
                 },
-                bio         : 'Desarrollador con mas de 10 anos de experiencia en Python. Ademas del desarrollo, mi otra pasion es la Seguridad informatica.',
+                bio         : 'Soy desarrolladora web, actualmente trabajo como Frontend Developer en Tekus, me gusta mucho el backend, apasionada de la naturaleza, las montañas, acampar, el cine, la cerveza, y en mis tiempos libres también me dedico a leer, en especial temas relacionados con tech.',
             },
         ];
     }
