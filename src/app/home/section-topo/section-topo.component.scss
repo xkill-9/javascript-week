@@ -5,12 +5,17 @@
     height: 100vh;
 
     .bg-topo {
-        @extend %cover;
         @extend %flex-center-center;
         @include flex-dir(column);
-        background-position: center top;
         height: 85vh;
         position: relative;
+        background-image:
+                    linear-gradient(rgba(63, 66, 90, 0.85),  rgba(63, 66, 90, 0.85)),
+                    url(/assets/img/back-topo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
 
         .quando {
             background-color: #f0db4c;
