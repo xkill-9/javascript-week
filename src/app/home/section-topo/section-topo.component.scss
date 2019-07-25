@@ -6,8 +6,7 @@
 
     .bg-topo {
         @extend %flex-center-center;
-        @include flex-dir(column);
-        height: 85vh;
+        height: 50vh;
         position: relative;
         background-image:
                     linear-gradient(rgba(63, 66, 90, 0.85),  rgba(63, 66, 90, 0.85)),
@@ -15,33 +14,39 @@
         background-size: cover;
         background-repeat: no-repeat;
 
-
-
-        .quando {
-            background-color: #f0db4c;
-            padding: .5em;
-            font: {
-                size: 1.3em;
-                weight: 300;
-            }
-            a {
-                color:black;
-            }
-            line-height: normal;
-            letter-spacing: .15em;
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        h1 {
-            color: black;
-            margin: 2em 0;
-            padding: 0.5em;
-            width: 95%;
-            text-align: center;
-            font: {
-                weight: 400;
+        .logo {
+            display: flex;
+            img {
+                width: 50%;
+                margin: 0 auto;
             }
-            background-color: #f0db4c;
-            opacity: 0.9;
+        }
+
+        .when {
+            line-height: 1.5;
+            text-align: center;
+            margin: 0 auto;
+            width: 200px;
+            margin-bottom: 100px;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .register {
+            width: 200px;
+            font-size: 36px;
+            background-color: #90C53F;
+            padding: 10px 30px;
+            border-radius: 5px;
+            a {
+                color: white;
+            }
         }
     }
 
