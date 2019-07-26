@@ -85,8 +85,4 @@ export class SectionAgendaComponent implements OnInit {
             },
         };
     }
-
-    selectDay(day) {
-        this.selectedDay = day;
-    }
 }
