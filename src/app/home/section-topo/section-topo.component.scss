@@ -5,60 +5,99 @@
     height: 100vh;
 
     .bg-topo {
-        @extend %cover;
-        @extend %flex-center-center;
-        @include flex-dir(column);
-        background-position: center top;
-        height: 85vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
         position: relative;
+        background-image:
+                    linear-gradient(rgba(63, 66, 90, 0.85),  rgba(63, 66, 90, 0.85)),
+                    url(/assets/img/back-topo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
 
-        .quando {
-            background-color: #f0db4c;
-            padding: .5em;
-            font: {
-                size: 1.3em;
-                weight: 300;
+        @media screen and (min-width: 800px) {
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 50vh;
+            .hero {
+                flex-direction: column
             }
+
+            .logo {
+                width: 50%;
+            }
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .when {
+                width: 170px;
+                margin: 30px 0;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-size: 36px;
+            }
+
+            @media screen and (min-width: 800px) {
+                .when {
+                    font-size: 60px;
+                    width: 280px;
+                    margin-bottom: 100px;
+                    line-height: 1.5;
+                    text-align: center;
+                }
+            }
+        }
+
+        .logo {
+            max-width: 50%;
+            margin-top: 20px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                margin: 0 auto;
+            }
+
+            @media screen and (min-width: 1600px) {
+                img {
+                    max-width: 60%;
+                }  
+            } 
+
+        }
+
+        .register {
+            background-color: #90C53F;
+            font-size: 24px;
+            padding: 10px 50px;
+            margin-bottom: 15px;
+            border-radius: 5px;
             a {
-                color:black;
+                color: white;
             }
-            line-height: normal;
-            letter-spacing: .15em;
+            @media screen and (min-width: 800px) {
+                width: 200px;
+                font-size: 36px;
+                padding: 10px 30px;
+                border-radius: 5px;
+            }
+
         }
 
-        h1 {
-            color: black;
-            margin: 2em 0;
-            padding: 0.5em;
-            width: 95%;
-            text-align: center;
-            font: {
-                weight: 400;
-            }
-            background-color: #f0db4c;
-            opacity: 0.9;
-        }
-    }
+        .conduct {
+            color: #90c53f;
+            font-size: 18px;
+            text-decoration: underline;
 
-}
-
-/* media queries */
-@media screen and (max-width: 1080px) {
-    .section-topo-component {
-        .bg-topo {
-            h1 {
-                margin: 1em 0;
+            @media screen and (min-width: 800px) {
+                font-size: 24px;
             }
         }
     }
-}
 
-@media screen and (max-width: 400px) {
-    .section-topo-component {
-        .bg-topo {
-            h1 {
-                font-size: 3em;
-            }
-        }
-    }
 }
