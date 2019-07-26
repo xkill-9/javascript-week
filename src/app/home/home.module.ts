@@ -1,7 +1,7 @@
-import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {HomeRoutingModule} from './home-routing.module';
-import {SharedModule} from "../shared/shared.module";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HomeRoutingModule } from './home-routing.module';
+import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './home.component';
 import { SectionTopoComponent } from './section-topo/section-topo.component';
 import { FormInscricaoComponent } from './form-inscricao/form-inscricao.component';
@@ -15,13 +15,27 @@ import { AgendaComponent } from './section-agenda/agenda/agenda.component';
 import { SectionMapaComponent } from './section-mapa/section-mapa.component';
 import { SectionApoioComponent } from './section-apoio/section-apoio.component';
 import { SectionMatrizComponent } from './section-matriz/section-matriz.component';
+import { ScheduleContentComponent } from './section-agenda/schedule-content/schedule-content.component';
+import { ScheduleEventComponent } from './section-agenda/schedule-event/schedule-event.component';
 
 @NgModule({
-    imports: [
-        CommonModule,
-        SharedModule,
-        HomeRoutingModule
+    imports: [CommonModule, SharedModule, HomeRoutingModule],
+    declarations: [
+        HomeComponent,
+        SectionTopoComponent,
+        FormInscricaoComponent,
+        ContadorComponent,
+        ValoresComponent,
+        SectionPalestrantesComponent,
+        TituloComponent,
+        PalestranteComponent,
+        SectionAgendaComponent,
+        AgendaComponent,
+        ScheduleContentComponent,
+        ScheduleEventComponent,
+        SectionMapaComponent,
+        SectionApoioComponent,
+        SectionMatrizComponent,
     ],
-    declarations: [HomeComponent, SectionTopoComponent, FormInscricaoComponent, ContadorComponent, ValoresComponent, SectionPalestrantesComponent, TituloComponent, PalestranteComponent, SectionAgendaComponent, AgendaComponent, SectionMapaComponent, SectionApoioComponent, SectionMatrizComponent]
 })
-export class HomeModule { }
+export class HomeModule {}
