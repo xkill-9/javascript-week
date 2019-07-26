@@ -1,6 +1,5 @@
-# Landingpage del Evento Angular Week
+# Landingpage del Evento Node Week
 
-[WebSite] (https://angularweek.org)
 Este proyecto fue creado con angular / cli [Angular CLI] (https://github.com/angular/angular-cli).
 
 ## Instalación del proyecto
