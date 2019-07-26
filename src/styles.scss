@@ -1,14 +1,39 @@
 @import 'scss/imports';
 
-* {
-    font-family: "Raleway", sans-serif;
+html {
     box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
 }
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
     //overflow-x: hidden;
+}
+
+.heading-lg {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.c-sushi {
+    color: $sushi;
+}
+
+.c-gun-powder {
+    color: $gun-powder;
+}
+
+.c-silver {
+    color: $silver;
 }
 
 .app-loading {
@@ -18,7 +43,7 @@ body {
 
     img {
         max-width: 150px;
-        animation: animacao .7s infinite;
+        animation: animacao 0.7s infinite;
     }
 }
 
@@ -34,14 +59,14 @@ body {
     }
 }
 
-  .loadapp {
+.loadapp {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
-    }
+}
 
-    .loadapp img {
-        height: 70px;
-    }
+.loadapp img {
+    height: 70px;
+}
