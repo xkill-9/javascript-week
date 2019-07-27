@@ -57,8 +57,14 @@
   }
 
   & .person-info-container {
-    @include centered-flex;
     flex: 3;
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+    flex-direction: column;
+    height: 72%;
+    align-items: flex-start;
+    color: #3f425a;
   }
   & .person-avatar {
     width: 14rem;
@@ -73,17 +79,18 @@
     }
   }
 
-  & .person-info {
+  & .person-talk {
     color: #3f425a;
     font-size: 2rem;
     font-weight: 900;
+    line-height: 1;
   }
 
-  & .person-left-arrow {
-
-  }
-
-  & .person-right-arrow {
+  & .person-info {
+    & .person-name {
+      font-size: 1.3rem;
+      margin-bottom: 0.3rem;
+    }
   }
 
   & .guest-carousel-info {
