@@ -17,13 +17,24 @@
         background-position: center center;
         background-size: cover;
         @media screen and (max-width: 730px) {
-            height: 250px;
+            height: 100px;
+            flex-direction: row;
+            padding: 0 26px;
+            justify-content: flex-start;
+            img {
+                height: 44px;
+                width: 44px;
+            }
         }
         h2 {
             color: $gun-powder;
             font-size: 36px;
             font-weight: 900;
             line-height: 1.1;
+            @media screen and (max-width: 730px) {
+                font-size: 24px;
+                padding-left: 15px;
+            }
         }
     }
     &__tabs {

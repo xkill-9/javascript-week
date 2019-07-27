@@ -7,16 +7,16 @@ import { SectionTopoComponent } from './section-topo/section-topo.component';
 import { FormInscricaoComponent } from './form-inscricao/form-inscricao.component';
 import { ContadorComponent } from './contador/contador.component';
 import { ValoresComponent } from './contador/valores/valores.component';
-import { SectionPalestrantesComponent } from './section-palestrantes/section-palestrantes.component';
 import { TituloComponent } from './titulo/titulo.component';
-import { PalestranteComponent } from './section-palestrantes/palestrante/palestrante.component';
-import { SectionAgendaComponent } from './section-agenda/section-agenda.component';
-import { AgendaComponent } from './section-agenda/agenda/agenda.component';
+import { ScheduleComponent } from './schedule/schedule.component';
+import { SpeakersComponent } from './speakers/speakers.component';
+import { SpeakerComponent } from './speakers/speaker/speaker.component';
+import { SpeakerInfoComponent } from './speakers/speaker-info/speaker-info.component';
 import { SectionMapaComponent } from './section-mapa/section-mapa.component';
 import { SectionApoioComponent } from './section-apoio/section-apoio.component';
 import { SectionMatrizComponent } from './section-matriz/section-matriz.component';
-import { ScheduleContentComponent } from './section-agenda/schedule-content/schedule-content.component';
-import { ScheduleEventComponent } from './section-agenda/schedule-event/schedule-event.component';
+import { ScheduleContentComponent } from './schedule/schedule-content/schedule-content.component';
+import { ScheduleEventComponent } from './schedule/schedule-event/schedule-event.component';
 
 @NgModule({
     imports: [CommonModule, SharedModule, HomeRoutingModule],
@@ -26,13 +26,13 @@ import { ScheduleEventComponent } from './section-agenda/schedule-event/schedule
         FormInscricaoComponent,
         ContadorComponent,
         ValoresComponent,
-        SectionPalestrantesComponent,
         TituloComponent,
-        PalestranteComponent,
-        SectionAgendaComponent,
-        AgendaComponent,
+        ScheduleComponent,
         ScheduleContentComponent,
         ScheduleEventComponent,
+        SpeakersComponent,
+        SpeakerComponent,
+        SpeakerInfoComponent,
         SectionMapaComponent,
         SectionApoioComponent,
         SectionMatrizComponent,
