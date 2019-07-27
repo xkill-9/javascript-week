@@ -1,11 +1,11 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
-    selector: 'app-section-agenda',
-    templateUrl: './section-agenda.component.html',
-    styleUrls: ['./section-agenda.component.scss'],
+    selector: 'app-schedule',
+    templateUrl: './schedule.component.html',
+    styleUrls: ['./schedule.component.scss'],
 })
-export class SectionAgendaComponent implements OnInit {
+export class ScheduleComponent implements OnInit {
     schedule: any = {};
     selectedDay = 'lunes';
     objectKeys = Object.keys;
