@@ -17,6 +17,7 @@ import { SectionApoioComponent } from './section-apoio/section-apoio.component';
 import { SectionMatrizComponent } from './section-matriz/section-matriz.component';
 import { ScheduleContentComponent } from './schedule/schedule-content/schedule-content.component';
 import { ScheduleEventComponent } from './schedule/schedule-event/schedule-event.component';
+import { SectionGuestsComponent } from './section-guests/section-guests.component';
 
 @NgModule({
     imports: [CommonModule, SharedModule, HomeRoutingModule],
@@ -36,6 +37,7 @@ import { ScheduleEventComponent } from './schedule/schedule-event/schedule-event
         SectionMapaComponent,
         SectionApoioComponent,
         SectionMatrizComponent,
+        SectionGuestsComponent,
     ],
 })
 export class HomeModule {}
