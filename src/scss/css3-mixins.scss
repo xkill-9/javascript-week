@@ -284,3 +284,12 @@
 @mixin animation($str) {
   @include css3-prefix('animation', $str);
 }
+
+
+/* PX to EMs*/
+
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}

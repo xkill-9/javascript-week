@@ -21,6 +21,11 @@
             border: 0.5px #333333 solid;
         }
     }
+
+    .emphasis {
+        background-color: $super-light-grey;
+        padding-bottom: 1px;
+    }
 }
 
 @media screen and (max-width: 420px) {

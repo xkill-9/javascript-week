@@ -2,13 +2,12 @@
 
 .section-topo-component {
     position: relative;
-    height: 100vh;
-
+    height: 77vh;
     .bg-topo {
+        height: 77vh;
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 70vh;
         position: relative;
         background-image:
                     linear-gradient(rgba(63, 66, 90, 0.85),  rgba(63, 66, 90, 0.85)),
@@ -16,59 +15,28 @@
         background-size: cover;
         background-repeat: no-repeat;
 
-        @media screen and (min-width: 800px) {
-            flex-direction: row;
-            justify-content: space-evenly;
-            height: 50vh;
-            .hero {
-                flex-direction: column
-            }
-
-            .logo {
-                width: 50%;
+        .logo {
+            width: 50%;
+            margin-top: em(25);
+            img {
+                width: 100%;
             }
         }
 
         .hero {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .when {
-                width: 170px;
-                margin: 30px 0;
-                text-align: center;
-                color: white;
-                font-family: sans-serif;
-                font-size: 36px;
-            }
-
-            @media screen and (min-width: 800px) {
-                .when {
-                    font-size: 60px;
-                    width: 280px;
-                    margin-bottom: 100px;
-                    line-height: 1.5;
-                    text-align: center;
-                }
-            }
+            text-align: center;
+            width: 60%;
         }
 
-        .logo {
-            max-width: 50%;
-            margin-top: 20px;
-            img {
-                max-width: 100%;
-                max-height: 100%;
-                margin: 0 auto;
+        .when {
+            font-size: em(36);
+            color: white;
+            text-align: center;
+            margin: em(40, 36) 0;
+            &-range, &-month {
+                display: inline-block;
+                min-width: 100%;
             }
-
-            @media screen and (min-width: 1600px) {
-                img {
-                    max-width: 60%;
-                }  
-            } 
-
         }
 
         .register {
@@ -80,6 +48,7 @@
             a {
                 color: white;
             }
+
             @media screen and (min-width: 800px) {
                 width: 200px;
                 font-size: 36px;
@@ -98,6 +67,38 @@
                 font-size: 24px;
             }
         }
-    }
 
+        @media screen and (min-width: 767px) {
+            flex-direction: row;
+            justify-content: center;
+            .logo {
+                width: 45%;
+            }
+            .hero {
+                width: 30%;
+            }
+        }
+
+        @media screen and (min-width: 767px) {
+            height: 80vh;
+            justify-content: space-evenly;
+            .logo {
+                width: 25%;
+            }
+            .register {
+                display: inline-block;
+                width: em(268, 36);
+                height: em(75, 36);
+            }
+            .conduct {
+                display: block;
+            }
+            .when {
+                font-size: 60px;
+            }
+        }
+    }
+    @media screen and (min-width: 767px) {
+        height: 80vh;
+    }
 }
