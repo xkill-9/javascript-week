@@ -19,7 +19,7 @@
   flex: 1.2;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 
   & .guests-img {
     width: 3.6rem;
@@ -92,21 +92,17 @@
       margin-bottom: 0.3rem;
     }
   }
-
-  & .guest-carousel-info {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-  }
 }
 
 .guest-carousel-info {
-  flex: 1;
+  align-items: flex-end;
   display: flex;
+  flex: 1;
   justify-content: center;
   & .carousel-wrapper {
-    align-items: flex-end;
+    align-items: center;
     display: inline-flex;
+    height: 15px;
     & .carousel-item {
       background: #b8b8b8;
       border-radius: 50%;
@@ -116,8 +112,7 @@
     }
     & .carousel-active {
       background: #90c53f;
-      height: 15px;
-      margin-top: -4px;
+      height: 100%;
       width: 15px;
     }
   }
