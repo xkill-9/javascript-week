@@ -44,8 +44,6 @@ export class SectionGuestsComponent implements OnInit {
     if (index >= this.guests.length) {
       index = 0;
     }
-    console.log(index);
     this.imageIndex = index;
   }
-
 }
