@@ -7,35 +7,51 @@
 
   <div class="guest-person-info">
     <div class="person-arrow-container">
-      <img class="person-arrow person-left-arrow" src="/assets/img/special-guests/left-arrow.svg" />
+      <button class="no-button-style" (click)="modifyImageIndex(-1)">
+        <img class="person-arrow person-left-arrow" src="/assets/img/special-guests/left-arrow.svg" />
+      </button>
     </div>
-    <div class="person-avatar-container">
-      <img class="person-avatar" src="/assets/img/special-guests/micro.svg" />
-    </div>
-    <div class="person-info-container">
-      <section class="person-talk">
-          How to implement Node JS projects in the real world
-      </section>
-      <section class="person-info">
-        <div class="person-name">
-          Gabriel Trujillo
+    <div class="guest-carousel-slideable">
+      <div [ngClass]="{
+          'person-slideable': true,
+          'person-slideable--active': i === imageIndex
+        }"
+        *ngFor="let guest of guests; index as i"
+      >
+        <div class="person-avatar-container">
+          <img class="person-avatar"
+           [src]="guest.image" />
         </div>
-        <div>
-          TM Rockwell
+        <div class="person-info-container">
+          <section class="person-talk">
+              {{ guest.talk }}
+          </section>
+          <section class="person-info">
+            <div class="person-name">
+              {{ guest.name }}
+            </div>
+            <div>
+                {{ guest.company }}
+            </div>
+        </section>
         </div>
-    </section>
+      </div>
     </div>
     <div class="person-arrow-container">
-      <img class="person-arrow person-right-arrow" src="/assets/img/special-guests/right-arrow.svg" />
+      <button class="no-button-style" (click)="modifyImageIndex(1)">
+        <img class="person-arrow person-right-arrow" src="/assets/img/special-guests/right-arrow.svg" />
+      </button>
     </div>
   </div>
 
   <div class="guest-carousel-info">
     <div class="carousel-wrapper">
-      <div class="carousel-item carousel-active"></div>
-      <div class="carousel-item"></div>
-      <div class="carousel-item"></div>
-      <div class="carousel-item"></div>
+        <div [ngClass]="{
+            'carousel-item': true,
+            'carousel-item--active': in === imageIndex
+          }"
+          *ngFor="let guest of guests; index as in"
+        ></div>
     </div>
   </div>
 </div>
