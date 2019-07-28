@@ -57,14 +57,26 @@
   }
 
   & .person-info-container {
-    flex: 3;
-    display: flex;
-    justify-content: space-between;
-    flex: 3;
-    flex-direction: column;
-    height: 72%;
-    align-items: flex-start;
-    color: #3f425a;
+    align-items: center;
+    & .person-container-wrapper {
+      flex: 3;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 72%;
+      align-items: flex-start;
+      color: #3f425a;
+
+      @media screen and (max-width: 730px){
+        height: 80%;
+      }
+      @media screen and (max-width: 650px){
+        height: 90%;
+      }
+      @media screen and (max-width: 610px){
+        height: 100%;
+      }
+    }
   }
   & .person-avatar {
     width: 14rem;
