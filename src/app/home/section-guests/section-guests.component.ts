@@ -22,13 +22,13 @@ export class SectionGuestsComponent implements OnInit {
         company: 'TM Rockwell',
       },
       {
-        image: '/assets/img/oscarGranados.png',
+        image: '/assets/img/special-guests/micro.svg',
         talk: '2. How to implement Node JS projects in the real world',
         name: 'Gabriel Trujillo',
         company: 'TM Rockwell',
       },
       {
-        image: '/assets/img/man.png',
+        image: '/assets/img/special-guests/micro.svg',
         talk: '3. How to implement Node JS projects in the real world',
         name: 'Gabriel Trujillo',
         company: 'TM Rockwell',
@@ -48,15 +48,15 @@ export class SectionGuestsComponent implements OnInit {
     this.imageIndex = index;
   }
 
-  public touch(e: TouchEvent) {
+  public touchStart(e: TouchEvent) {
+    const { pageX } = e.touches[0];
+    this.pageX = pageX;
+  }
+
+  public touchEnd(e: TouchEvent) {
     const { pageX } = e.changedTouches[0];
     const left = (this.pageX - pageX) > 0;
     this.modifyImageIndex(left ? 1 : -1);
-  }
-
-  public touchStart(e) {
-    const { pageX } = e.touches[0];
-    this.pageX = pageX;
   }
 
 }

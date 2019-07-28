@@ -11,30 +11,25 @@
         <img class="person-arrow" src="/assets/img/special-guests/left-arrow.svg" />
       </button>
     </div>
-    <div class="guest-carousel-slideable"
-      (touchstart)="touchStart($event)"
-      (touchend)="touch($event)"
-    >
-      <div *ngFor="let guest of guests; index as i"
-        [ngClass]="{
+    <div class="guest-carousel-slideable" (touchstart)="touchStart($event)" (touchend)="touchEnd($event)">
+      <div *ngFor="let guest of guests; index as i" [ngClass]="{
           'person-slideable': true,
           'person-slideable--active': i === imageIndex
         }">
         <div class="person-avatar-container">
-          <img class="person-avatar"
-           [src]="guest.image" />
+          <img class="person-avatar" [src]="guest.image" />
         </div>
         <div class="person-info-container">
           <div class="person-container-wrapper">
             <section class="person-talk">
-                {{ guest.talk }}
+              {{ guest.talk }}
             </section>
             <section class="person-info">
               <div class="person-name">
                 {{ guest.name }}
               </div>
               <div>
-                  {{ guest.company }}
+                {{ guest.company }}
               </div>
             </section>
           </div>
@@ -50,12 +45,10 @@
 
   <div class="guest-carousel-info">
     <div class="carousel-wrapper">
-        <div [ngClass]="{
+      <div [ngClass]="{
             'carousel-item': true,
             'carousel-item--active': in === imageIndex
-          }"
-          *ngFor="let guest of guests; index as in"
-        ></div>
+          }" *ngFor="let guest of guests; index as in"></div>
     </div>
   </div>
 </div>
