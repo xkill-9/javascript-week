@@ -1,27 +1,22 @@
-@import '../../../scss/imports';
 
 $turtle-green: #90c53f;
 
 .section-top-component {
     position: relative;
-    height: 26em;
+    height: 50em;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
     .main-bar {
       background: $turtle-green;
-      flex: 1;
-      @media screen and (max-width:450px) {
-        display: none;
-      }
+      flex: .5;
     }
     .main-top {
-        flex: 7;
-        height: 77vh;
+        flex: 10;
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         background-image:
                     linear-gradient(rgba(63, 66, 90, 0.85),  rgba(63, 66, 90, 0.85)),
                     url(/assets/img/back-topo.png);
@@ -32,10 +27,10 @@ $turtle-green: #90c53f;
           display: flex;
           justify-content: center;
           align-items: center;
-          flex: 1.5;
+          flex: 1;
           &-img {
-            height: 6em;
-            width: 10em;
+            height: 22em;
+            width: 35em;
           }
         }
 
@@ -44,7 +39,8 @@ $turtle-green: #90c53f;
           flex-direction: column;
           justify-content: space-around;
           align-items: center;
-          flex: 2.5;
+          flex: .7;
+          height: 80%;
 
           .main-details-date-container {
             flex: 1;
@@ -53,9 +49,17 @@ $turtle-green: #90c53f;
             align-items: center;
           }
 
+          &-bottom {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+          }
+
           &-date {
             color: white;
-            font-size: em(36);
+            font-size: 4.5em;
             margin: 0;
             text-align: center;
 
@@ -74,7 +78,7 @@ $turtle-green: #90c53f;
             &-button {
               background-color: #90C53F;
               font-size: 24px;
-              padding: 10px 50px;
+              padding: 6px 45px;
               border-radius: 5px;
               a {
                   color: white;
@@ -86,7 +90,7 @@ $turtle-green: #90c53f;
             flex: .9;
             .conduct-link {
               color: #90c53f;
-              font-size: 18px;
+              font-size: 2em;
               text-decoration: underline;
             }
           }
@@ -94,8 +98,31 @@ $turtle-green: #90c53f;
     }
 }
 
-@media screnn and (max-width: 450px) {
-  .main-details {
-    padding-bottom: 20px;
+@media screen and (max-width: 550px) {
+  .section-top-component {
+    height: 26em;
+    .main-top {
+      flex-direction: column;
+      .main-details {
+        align-items: center;
+        flex: 2.5;
+        &-date {
+          font-size: 2.5em;
+        }
+      }
+      .main-subject {
+        flex: 1.5;
+        &-img {
+          height: 6em;
+          width: 10em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .section-top-component {
+    font-size: 8px;
   }
 }
