@@ -101,13 +101,28 @@ $turtle-green: #90c53f;
 @media screen and (max-width: 550px) {
   .section-top-component {
     height: 26em;
+    .main-bar {
+      display: none;
+    }
     .main-top {
       flex-direction: column;
       .main-details {
         align-items: center;
         flex: 2.5;
         &-date {
-          font-size: 2.5em;
+          font-size: 2em;
+        }
+        &-register-button {
+          padding: 3px 38px 8px;
+        }
+        &-register-button a {
+          font-size: .9em;
+        }
+        &-bottom {
+          flex: 1.6;
+        }
+        .conduct-link {
+          font-size: 1em;
         }
       }
       .main-subject {
@@ -121,7 +136,7 @@ $turtle-green: #90c53f;
   }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 551px) {
   .section-top-component {
     font-size: 8px;
   }
