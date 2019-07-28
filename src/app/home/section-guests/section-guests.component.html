@@ -11,7 +11,10 @@
         <img class="person-arrow" src="/assets/img/special-guests/left-arrow.svg" />
       </button>
     </div>
-    <div class="guest-carousel-slideable">
+    <div class="guest-carousel-slideable"
+      (touchstart)="touchStart($event)"
+      (touchend)="touch($event)"
+    >
       <div *ngFor="let guest of guests; index as i"
         [ngClass]="{
           'person-slideable': true,

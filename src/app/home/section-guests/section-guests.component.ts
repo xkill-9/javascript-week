@@ -9,6 +9,7 @@ export class SectionGuestsComponent implements OnInit {
 
   imageIndex: number;
   guests: any;
+  pageX: number;
 
   constructor() { }
 
@@ -46,4 +47,16 @@ export class SectionGuestsComponent implements OnInit {
     }
     this.imageIndex = index;
   }
+
+  public touch(e: TouchEvent) {
+    const { pageX } = e.changedTouches[0];
+    const left = (this.pageX - pageX) > 0;
+    this.modifyImageIndex(left ? 1 : -1);
+  }
+
+  public touchStart(e) {
+    const { pageX } = e.touches[0];
+    this.pageX = pageX;
+  }
+
 }
