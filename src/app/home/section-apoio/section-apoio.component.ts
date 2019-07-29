@@ -9,7 +9,7 @@ export class SectionApoioComponent implements OnInit {
     public voluntarios = [
         {
             name: "Jhonatan Giraldo",
-            picture: "/assets/img/man.png"
+            picture: "/assets/img/jhonatan-giraldo.png"
         },
         {
             name: "Ana Sosa",
