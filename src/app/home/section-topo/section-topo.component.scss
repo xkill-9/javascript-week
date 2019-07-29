@@ -3,34 +3,53 @@ $turtle-green: #90c53f;
 
 .section-top-component {
     position: relative;
-    height: 50em;
+    height: 87em;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    max-height: 668px;
 
     .main-bar {
       background: $turtle-green;
-      flex: .5;
+      flex: 0.65;
+      max-height: 40px;
     }
     .main-top {
         flex: 10;
         display: flex;
-        align-items: center;
-        flex-direction: row;
         background-image:
                     linear-gradient(rgba(63, 66, 90, 0.85),  rgba(63, 66, 90, 0.85)),
                     url(/assets/img/back-topo.png);
         background-size: cover;
         background-repeat: no-repeat;
+        justify-content: center;
+        padding: 0 20px 100px;
+
+        &-container {
+          display: flex;
+          align-items: center;
+          max-width: 1160px;
+          width: 100%;
+        }
 
         .main-subject {
           display: flex;
-          justify-content: center;
+          justify-content: flex-end;
           align-items: center;
           flex: 1;
           &-img {
-            height: 22em;
-            width: 35em;
+            height: 43em;
+            width: 69em;
+            height: 50em;
+            width: 77em;
+            @media (max-width: 1050px) {
+              height: 35em;
+              width: 45em;
+            }
+            @media (max-width: 750px) {
+              height: 78em;
+              width: 30em;
+            }
           }
         }
 
@@ -101,10 +120,15 @@ $turtle-green: #90c53f;
 @media screen and (max-width: 550px) {
   .section-top-component {
     height: 26em;
+    max-height: 478px;
     .main-bar {
       display: none;
     }
     .main-top {
+      padding: 0;
+    }
+    .main-top-container {
+      font-size: 11px;
       flex-direction: column;
       .main-details {
         align-items: center;
@@ -128,8 +152,7 @@ $turtle-green: #90c53f;
       .main-subject {
         flex: 1.5;
         &-img {
-          height: 6em;
-          width: 10em;
+          height: 10em;
         }
       }
     }
@@ -137,6 +160,13 @@ $turtle-green: #90c53f;
 }
 
 @media screen and (min-width: 551px) {
+  .section-top-component {
+    font-size: 8px;
+  }
+}
+
+
+@media screen and (ma-width: 551px) {
   .section-top-component {
     font-size: 8px;
   }
