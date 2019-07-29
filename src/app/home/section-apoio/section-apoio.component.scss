@@ -1,76 +1,67 @@
 @import '../../../scss/imports';
 
-.section-apoio-component {
-    padding: 1.5em 0;
-
-    .area {
-        @extend %flex-center-center;
-        @include justify-content(center);
-        @include flex-wrap(wrap);
-        width: 65%;
-        max-width: 700px;
-        margin: 0 auto 3em;
-
-        img {
-            max-height: 150px;
-        }
-
-        .foto {
-            width: em(150);
-            height: em(150);
-            border-radius: 50%;
-            margin: 5px;
-            border: 0.5px #333333 solid;
-            position: relative;
-            overflow: hidden;
-
-            img {
-                width: 100%;
-                height: 100%;
-            }
-
-            &:hover,
-            &:active {
-                .vol-desc {
-                    visibility: visible;
-                    bottom: 0;
-                }
-            }
-        }
-
-        .vol-desc {
-            visibility: hidden;
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            bottom: 100%;
-            right: 0;
-            text-align: center;
-            color: white;
-            background-color: rgba(1,1,1,0.5);
-            transition: all 0.1s ease-in-out;
-        }
-    }
-
-    .emphasis {
-        background-color: $super-light-grey;
-        padding-bottom: 1px;
+.globant-logo {
+    img {
+        max-width: 575px;
+        width: 95%;
     }
 }
 
-@media screen and (max-width: 515px) {
-    .section-apoio-component {
-        .area {
-            @include flex-dir(column);
-            flex-direction: row;
-            width: 100%;
-            img {
-                margin-bottom: 4em;
-                width: 100%;
-            }
+.jw-communities {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 941px;
+    text-align: center;
+    img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+}
+
+.jw-volunteers {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    max-width: 1160px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    padding-top: 45px;
+    @media screen and (max-width: 1050px) {
+        padding-top: 0;
+        grid-gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+.jw-volunteer {
+    position: relative;
+    &__photo {
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        @media screen and (max-width: 1050px) {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    &__name {
+        color: white;
+        text-align: center;
+        position: absolute;
+        bottom: 25px;
+        font-size: 24px;
+        font-weight: bold;
+        max-width: 150px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        line-height: 1.3;
+        @media screen and (max-width: 1050px) {
+            max-width: 111px;
+            font-size: 18px;
         }
     }
 }

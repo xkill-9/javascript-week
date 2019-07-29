@@ -5,8 +5,13 @@
     @extend %flex-center-center;
     //background-image: url(./../../../assets/img/mapa.jpg);
     height: 65vh;
-    background-color: rgba(255,255,255,0.95);
-
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.95);
+    @media screen and (max-width: 730px) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     .area {
         width: 95%;
         max-width: 85%;
@@ -19,29 +24,24 @@
             h4 {
                 @extend %flex-center-left;
                 //margin: 0 0 1em;
+                color: $gun-powder;
                 font: {
-                    size: 1.7em;
-                    weight: 400;
-                }
-
-                i {
-                    color: $verde;
-                    font-size: 1.3em;
-                    margin-right: .3em;
+                    size: 36px;
+                    weight: 900;
                 }
             }
 
             p {
                 @extend %flex-center-left;
+                color: $gun-powder;
                 font: {
-                    size: 1.5em;
-                    weight: 300;
+                    size: 24px;
+                    weight: normal;
                 }
-                color: #666;
                 margin: 1em 0 0;
 
                 i {
-                    margin-right: .3em;
+                    margin-right: 0.3em;
                 }
             }
         }
@@ -55,7 +55,8 @@
 @media screen and (max-width: 1288px) {
     .section-mapa-component {
         .area {
-            .box, .vazio {
+            .box,
+            .vazio {
                 width: 50%;
             }
         }
@@ -81,7 +82,7 @@
     .section-mapa-component {
         .area {
             .box {
-                font-size: .8em;
+                font-size: 0.8em;
                 width: 100%;
             }
         }
@@ -94,9 +95,8 @@
 
         .area {
             .box {
-                font-size: .6em;
+                font-size: 0.6em;
             }
         }
     }
 }
-
