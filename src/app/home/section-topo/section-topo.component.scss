@@ -40,13 +40,15 @@ $turtle-green: #90c53f;
           &-img {
             height: 43em;
             width: 69em;
+            height: 50em;
+            width: 77em;
             @media (max-width: 1050px) {
-              height: 29em;
-              width: 49em;
+              height: 35em;
+              width: 45em;
             }
             @media (max-width: 750px) {
-              height: 22em;
-              width: 35em;
+              height: 78em;
+              width: 30em;
             }
           }
         }
@@ -122,7 +124,11 @@ $turtle-green: #90c53f;
     .main-bar {
       display: none;
     }
+    .main-top {
+      padding: 0;
+    }
     .main-top-container {
+      font-size: 11px;
       flex-direction: column;
       .main-details {
         align-items: center;
@@ -146,8 +152,7 @@ $turtle-green: #90c53f;
       .main-subject {
         flex: 1.5;
         &-img {
-          height: 6em;
-          width: 10em;
+          height: 10em;
         }
       }
     }
