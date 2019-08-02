@@ -7,7 +7,7 @@ import { Component, OnInit, HostListener } from "@angular/core";
 })
 export class ScheduleComponent implements OnInit {
     schedule: any = {};
-    selectedDay = "lunes";
+    selectedDay = "martes";
     objectKeys = Object.keys;
     constructor() {}
 
