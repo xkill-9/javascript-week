@@ -49,7 +49,8 @@ export class L10nDirective implements AfterViewInit {
             "Patrocina y organiza": "Sponsored and created by",
             "Comunidades Participantes": "Participating Communities",
             Voluntarios: "Volunteers",
-            "¡No te lo pierdas!": "Do not miss it!"
+            "¡No te lo pierdas!": "Do not miss it!",
+            "After y 🍻": "After and 🍻"
         },
         es: {}
     };
