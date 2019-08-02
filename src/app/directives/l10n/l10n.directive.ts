@@ -33,7 +33,7 @@ export class L10nDirective implements AfterViewInit {
             "Charla de invitado especial #2": "Special guest #2 talk",
             "Charla de invitado especial #3": "Special guest #3 talk",
             "Charla de invitado especial #4": "Special guest #4 talk",
-            "Cierre de evento y 🍻": "Event closure and 🍻",
+            "Cierre de evento": "Event closure",
             lun: "Mon",
             es: "day",
             mar: "Tue",
