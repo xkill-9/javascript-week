@@ -13,9 +13,9 @@ export class ScheduleComponent implements OnInit {
 
     ngOnInit() {
         this.schedule = {
-            lunes: {
-                day: "lunes",
-                date: "12 de agosto",
+            martes: {
+                day: "martes",
+                date: "20 de agosto",
                 events: [
                     {
                         type: "talk",
@@ -48,9 +48,9 @@ export class ScheduleComponent implements OnInit {
                     }
                 ]
             },
-            martes: {
-                day: "martes",
-                date: "13 de agosto",
+            miercoles: {
+                day: "miercoles",
+                date: "21 de agosto",
                 events: [
                     {
                         type: "talk",
@@ -77,9 +77,9 @@ export class ScheduleComponent implements OnInit {
                     }
                 ]
             },
-            miercoles: {
-                day: "miercoles",
-                date: "14 de agosto",
+            jueves: {
+                day: "jueves",
+                date: "22 de agosto",
                 events: [
                     {
                         type: "talk",
@@ -106,9 +106,9 @@ export class ScheduleComponent implements OnInit {
                     }
                 ]
             },
-            jueves: {
-                day: "jueves",
-                date: "15 de agosto",
+            viernes: {
+                day: "viernes",
+                date: "23 de agosto",
                 events: [
                     {
                         type: "talk",
@@ -132,30 +132,36 @@ export class ScheduleComponent implements OnInit {
                         title: "Charla de invitado especial #4",
                         subtitle: "",
                         date: "7:00 PM"
+                    },
+                    {
+                        type: "break",
+                        title: "After y 🍻",
+                        subtitle: "",
+                        date: "9:00 PM"
                     }
                 ]
             },
-            viernes: {
-                day: "viernes",
-                date: "16 de agosto",
+            sabado: {
+                day: "sabado",
+                date: "24 de agosto",
                 events: [
                     {
                         type: "talk",
                         title: "Registro de asistentes",
                         subtitle: "",
-                        date: "5:30 PM"
+                        date: "8:00 AM"
                     },
                     {
                         type: "talk",
                         title: "Workshop",
                         subtitle: "",
-                        date: "6:00 PM"
+                        date: "8:30 AM"
                     },
                     {
                         type: "talk",
-                        title: "Cierre de evento y 🍻",
+                        title: "Cierre de evento",
                         subtitle: "",
-                        date: "8:00 PM"
+                        date: "12:30 PM"
                     }
                 ]
             }
