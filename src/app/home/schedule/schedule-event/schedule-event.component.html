@@ -2,6 +2,7 @@
     <time
         class="jw-schedule-event__date heading-lg c-sushi"
         [class.c-silver]="event.type === 'break'"
+        appLocalize
     >
         {{ event.date }}
     </time>
@@ -9,6 +10,7 @@
         <h3
             class="c-gun-powder"
             [ngClass]="{ 'c-silver heading-lg': event.type === 'break' }"
+            appLocalize
         >
             {{ event.title }}
         </h3>

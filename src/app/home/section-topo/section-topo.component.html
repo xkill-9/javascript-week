@@ -8,8 +8,13 @@
       <div class="main-details">
         <div class="main-details-date-container">
           <h3 class="main-details-date">
-            <span class="date-range"><b class="date-range-number">12</b> al <b class="date-range-number">16</b></span>
-            <span class="date-month">de Agosto</span>
+            <span appLocalize [appLocalizeIf]="'es'" class="date-range">
+                <b appLocalize class="date-range-number">12</b> al
+                <b appLocalize class="date-range-number">16</b></span>
+            <span appLocalize class="date-month">de Agosto</span>
+            <span appLocalize [appLocalizeIf]="'en'" class="date-range">
+                <b appLocalize class="date-range-number">12</b> al
+                <b appLocalize class="date-range-number">16</b></span>
           </h3>
         </div>
         <div class="main-details-bottom">
@@ -19,12 +24,13 @@
                             class="jw-btn"
                             href="https://www.eventbrite.com/e/development-week-edicion-medellin-node-js-tickets-66575784965"
                             target="_blank"
+                            appLocalize
                             >Registro</a
                         >
             </div>
           </div>
           <div class="main-details-conduct">
-            <a class="conduct-link" href="http://jsconf.com/codeofconduct.html" target="_blank">Código de conducta</a>
+            <a class="conduct-link" href="http://jsconf.com/codeofconduct.html" target="_blank" appLocalize>Código de conducta</a>
           </div>
         </div>
     </div>
