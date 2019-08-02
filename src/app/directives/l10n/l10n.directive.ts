@@ -17,8 +17,8 @@ export class L10nDirective implements AfterViewInit {
     private dict = {
         en: {
             "de Agosto": "August",
-            12: "12th",
-            16: "16th",
+            12: "20th",
+            16: "24th",
             al: "to",
             Registro: "Register",
             "Código de conducta": "Code of conduct",
@@ -44,6 +44,8 @@ export class L10nDirective implements AfterViewInit {
             ves: "rsday",
             vie: "Fri",
             rnes: "day",
+            sab: "Sat",
+            ado: "urday",
             "Patrocina y organiza": "Sponsored and created by",
             "Comunidades Participantes": "Participating Communities",
             Voluntarios: "Volunteers",
