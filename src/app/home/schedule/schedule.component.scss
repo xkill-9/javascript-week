@@ -64,7 +64,7 @@
             }
             @media screen and (max-width: 730px) {
                 height: 60px;
-                span {
+                span.noMobile {
                     display: none;
                 }
             }

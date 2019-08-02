@@ -20,9 +20,13 @@ import { ScheduleEventComponent } from "./schedule/schedule-event/schedule-event
 import { SectionGuestsComponent } from "./section-guests/section-guests.component";
 import { CallForProposalsComponent } from "./section-call-for-proposals/call-for-proposals.component";
 
+import { L10nDirective } from "../directives/l10n/l10n.directive";
+
 @NgModule({
     imports: [CommonModule, SharedModule, HomeRoutingModule],
+    exports: [L10nDirective],
     declarations: [
+        L10nDirective,
         HomeComponent,
         SectionTopoComponent,
         FormInscricaoComponent,

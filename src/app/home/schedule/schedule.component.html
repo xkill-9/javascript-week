@@ -4,7 +4,7 @@
             src="../../../../assets/img/ic-title-agenda.svg"
             alt="Agenda Icon"
         />
-        <h2>AGENDA</h2>
+        <h2 appLocalize>AGENDA</h2>
     </div>
 
     <div class="jw-schedule__tabs">
@@ -17,8 +17,10 @@
                 attr.aria-controls="{{ day }}-tab"
                 [attr.aria-selected]="selectedDay === day"
             >
+                <span appLocalize>
                 {{ day.slice(0, 3) }}
-                <span>
+                </span>
+                <span class='noMobile' appLocalize>
                     {{ day.slice(3, day.length) }}
                 </span>
             </button>
