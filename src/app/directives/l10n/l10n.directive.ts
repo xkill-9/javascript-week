@@ -5,14 +5,13 @@ import {
     Input,
     ViewContainerRef,
     AfterViewInit,
-    OnChanges,
-    DoCheck
+    OnChanges
 } from "@angular/core";
 
 @Directive({
     selector: "[appLocalize]"
 })
-export class L10nDirective implements AfterViewInit, OnChanges, DoCheck {
+export class L10nDirective implements AfterViewInit, OnChanges {
     private lang = "es";
     @Input() appLocalizeIf: string;
     @Input() appLocalizeValue: string;
