@@ -17,57 +17,31 @@ export class L10nDirective implements AfterViewInit, OnChanges, DoCheck {
     @Input() appLocalizeIf: string;
     @Input() appLocalizeValue: string;
 
-    private dict = {
-        en: {
-            "de Agosto": "August",
-            12: "20th",
-            16: "24th",
-            al: "to",
-            Registro: "Register",
-            "Código de conducta": "Code of conduct",
-            "Postularme como speaker": "I want to be a speaker",
-            "¿Quieres ser parte de este evento?":
-                "Do you like to part of this?",
-            "12 de agosto": "august 12th",
-            AGENDA: "AGENDA",
-            "Registro de asistentes": "Attendee Registration",
-            "Bienvenida y keynote": "Welcome and keynote",
-            "Charla de invitado especial #1": "Special guest #1 talk",
-            "Charla de invitado especial #2": "Special guest #2 talk",
-            "Charla de invitado especial #3": "Special guest #3 talk",
-            "Charla de invitado especial #4": "Special guest #4 talk",
-            "Cierre de evento": "Event closure",
-            "20 de agosto": "August 20th",
-            "21 de agosto": "August 21th",
-            "22 de agosto": "August 22th",
-            "23 de agosto": "August 23th",
-            "24 de agosto": "August 24th",
-            lun: "Mon",
-            es: "day",
-            mar: "Tue",
-            tes: "sday",
-            mie: "Wed",
-            rcoles: "nesday",
-            jue: "Thu",
-            ves: "rsday",
-            vie: "Fri",
-            rnes: "day",
-            sab: "Sat",
-            ado: "urday",
-            "Patrocina y organiza": "Sponsored and created by",
-            "Comunidades Participantes": "Participating Communities",
-            Voluntarios: "Volunteers",
-            "¡No te lo pierdas!": "Do not miss it!",
-            "After y 🍻": "After and 🍻"
-        },
-        es: {}
-    };
+    private dict = {};
 
     constructor(private element: ElementRef, private renderer: Renderer2) {
         this.lang = navigator.language.toLowerCase() || "es";
         const [lang, _] = this.lang.split("-");
         if (!this.dict[this.lang] && this.dict[lang]) {
             this.lang = lang;
+        }
+        if (!this.dict[this.lang]) {
+            this.dict[this.lang] = {};
+            const win: any = window;
+            if (!win._l10n_reqs) {
+                win._l10n_reqs = {};
+                win._l10n_reqs[this.lang] = fetch(
+                    `/assets/l10n/${this.lang}.json`
+                ).then(res => {
+                    if (res.status > 199 && res.status < 300) {
+                        return res.json();
+                    }
+                });
+            }
+            win._l10n_reqs[this.lang].then(data => {
+                this.dict[this.lang] = data;
+                this.renderContent();
+            });
         }
     }
 
