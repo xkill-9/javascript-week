@@ -4,15 +4,18 @@ import {
     Renderer2,
     Input,
     ViewContainerRef,
-    AfterViewInit
+    AfterViewInit,
+    OnChanges,
+    DoCheck
 } from "@angular/core";
 
 @Directive({
     selector: "[appLocalize]"
 })
-export class L10nDirective implements AfterViewInit {
+export class L10nDirective implements AfterViewInit, OnChanges, DoCheck {
     private lang = "es";
     @Input() appLocalizeIf: string;
+    @Input() appLocalizeValue: string;
 
     private dict = {
         en: {
@@ -34,6 +37,11 @@ export class L10nDirective implements AfterViewInit {
             "Charla de invitado especial #3": "Special guest #3 talk",
             "Charla de invitado especial #4": "Special guest #4 talk",
             "Cierre de evento": "Event closure",
+            "20 de agosto": "August 20th",
+            "21 de agosto": "August 21th",
+            "22 de agosto": "August 22th",
+            "23 de agosto": "August 23th",
+            "24 de agosto": "August 24th",
             lun: "Mon",
             es: "day",
             mar: "Tue",
@@ -57,54 +65,79 @@ export class L10nDirective implements AfterViewInit {
 
     constructor(private element: ElementRef, private renderer: Renderer2) {
         this.lang = navigator.language.toLowerCase() || "es";
-        if (!this.dict[this.lang] && this.dict[this.lang.split("-")[0]]) {
-            this.lang = this.lang.split("-")[0];
+        const [lang, _] = this.lang.split("-");
+        if (!this.dict[this.lang] && this.dict[lang]) {
+            this.lang = lang;
         }
     }
 
-    ngAfterViewInit(): void {
-        const childElements = this.element.nativeElement.childNodes;
-        childElements.forEach((child: any, index: number) => {
-            if (this.appLocalizeIf) {
-                if (this.appLocalizeIf !== this.lang) {
-                    this.element.nativeElement.style.display = "none";
+    private renderContent(): void {
+        if (this.appLocalizeValue) {
+            const text = this.renderer.createText(
+                this.getTranslation(this.appLocalizeValue)
+            );
+            this.element.nativeElement.childNodes.forEach(node => {
+                this.renderer.removeChild(this.element.nativeElement, node);
+            });
+            this.renderer.appendChild(this.element.nativeElement, text);
+        } else {
+            const childElements = this.element.nativeElement.childNodes;
+            childElements.forEach((child: any) => {
+                if (this.appLocalizeIf) {
+                    if (this.appLocalizeIf !== this.lang) {
+                        this.element.nativeElement.style.display = "none";
+                    }
+                    if (child.nodeName === "#text") {
+                        const text = this.renderer.createText(
+                            this.getTranslation(child.textContent)
+                        );
+                        this.renderer.insertBefore(
+                            this.element.nativeElement,
+                            text,
+                            this.renderer.nextSibling(child)
+                        );
+                        this.renderer.removeChild(
+                            this.element.nativeElement,
+                            child
+                        );
+                    }
+                } else {
+                    if (child.nodeName === "#text") {
+                        this.renderer.removeChild(
+                            this.element.nativeElement,
+                            child
+                        );
+                        const text = this.renderer.createText(
+                            this.getTranslation(child.textContent)
+                        );
+                        this.renderer.appendChild(
+                            this.element.nativeElement,
+                            text
+                        );
+                    }
                 }
-                if (child.nodeName === "#text") {
-                    const text = this.renderer.createText(
-                        this.getTranslation(child)
-                    );
-                    this.renderer.insertBefore(
-                        this.element.nativeElement,
-                        text,
-                        this.renderer.nextSibling(child)
-                    );
-                    this.renderer.removeChild(
-                        this.element.nativeElement,
-                        child
-                    );
-                }
-            } else {
-                if (child.nodeName === "#text") {
-                    this.renderer.removeChild(
-                        this.element.nativeElement,
-                        child
-                    );
-                    const text = this.renderer.createText(
-                        this.getTranslation(child)
-                    );
-                    this.renderer.appendChild(this.element.nativeElement, text);
-                }
-            }
-        });
+            });
+        }
     }
 
-    ngOnInit() {}
+    ngOnChanges(/* changes: SimpleChanges */): void {
+        this.renderContent();
+    }
 
-    private getTranslation(value: any): string {
-        const short = value.textContent.trim();
-        const res = this.dict[this.lang][short] || value.textContent.trim();
-        const result = value.textContent.replace(value.textContent.trim(), res);
-        console.log(result);
+    ngAfterViewInit(): void {
+        this.renderContent();
+    }
+
+    private getTranslation(text: any): string {
+        if (
+            !text ||
+            Object.prototype.toString.call(text).indexOf("String") === -1
+        ) {
+            text = "";
+        }
+        const short = text.trim();
+        const res = this.dict[this.lang][short] || text.trim();
+        const result = text.replace(text.trim(), res);
         return result;
     }
 }
