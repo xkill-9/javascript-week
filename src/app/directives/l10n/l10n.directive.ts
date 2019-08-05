@@ -21,9 +21,7 @@ export class L10nDirective implements AfterViewInit, OnChanges {
     constructor(private element: ElementRef, private renderer: Renderer2) {
         this.lang = navigator.language.toLowerCase() || "es";
         const [lang, _] = this.lang.split("-");
-        if (!this.dict[this.lang] && this.dict[lang]) {
-            this.lang = lang;
-        }
+        this.lang = lang;
         if (!this.dict[this.lang]) {
             this.dict[this.lang] = {};
             const win: any = window;
