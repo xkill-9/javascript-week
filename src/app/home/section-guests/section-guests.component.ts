@@ -16,23 +16,17 @@ export class SectionGuestsComponent implements OnInit {
   ngOnInit() {
     this.guests = [
       {
-        image: '/assets/img/special-guests/micro.svg',
-        talk: '1. How to implement Node JS projects in the real world',
-        name: 'Gabriel Trujillo',
-        company: 'TM Rockwell',
+        image: '/assets/img/special-guests/srdjan-josipovic.png',
+        talk: 'Keynote: Why enterprises embrace Node.js',
+        name: 'Serge Josipovic',
+        company: 'Rockwell Automation',
       },
-      {
-        image: '/assets/img/special-guests/micro.svg',
-        talk: '2. How to implement Node JS projects in the real world',
-        name: 'Gabriel Trujillo',
-        company: 'TM Rockwell',
-      },
-      {
-        image: '/assets/img/special-guests/micro.svg',
-        talk: '3. How to implement Node JS projects in the real world',
-        name: 'Gabriel Trujillo',
-        company: 'TM Rockwell',
-      }
+      // {
+      //   image: '/assets/img/special-guests/adrian-estrada.jpeg',
+      //   talk: 'Detangling multithreading in Node.js',
+      //   name: 'Adrian Estrada',
+      //   company: 'Node Source',
+      // },
     ];
     this.imageIndex = 0;
   }
