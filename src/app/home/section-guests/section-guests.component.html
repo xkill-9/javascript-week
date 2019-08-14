@@ -17,7 +17,12 @@
           'person-slideable--active': i === imageIndex
         }">
         <div class="person-avatar-container">
-          <img class="person-avatar" [src]="guest.image" />
+            <div class="octo">
+                <div class="octo1">
+                  <img class="person-avatar" [src]="guest.image"  width="320" height="316" />
+                </div>
+              </div>
+          <!-- <img /> -->
         </div>
         <div class="person-info-container">
           <div class="person-container-wrapper">

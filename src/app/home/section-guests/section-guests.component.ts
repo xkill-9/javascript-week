@@ -17,16 +17,16 @@ export class SectionGuestsComponent implements OnInit {
     this.guests = [
       {
         image: '/assets/img/special-guests/srdjan-josipovic.png',
-        talk: 'Why enterprises embrace Node.js',
+        talk: 'Keynote: Why enterprises embrace Node.js',
         name: 'Serge Josipovic',
         company: 'Rockwell Automation',
       },
-      {
-        image: '/assets/img/special-guests/adrian-estrada.jpeg',
-        talk: 'Detangling multithreading in Node.js',
-        name: 'Adrian Estrada',
-        company: 'Node Source',
-      },
+      // {
+      //   image: '/assets/img/special-guests/adrian-estrada.jpeg',
+      //   talk: 'Detangling multithreading in Node.js',
+      //   name: 'Adrian Estrada',
+      //   company: 'Node Source',
+      // },
     ];
     this.imageIndex = 0;
   }
