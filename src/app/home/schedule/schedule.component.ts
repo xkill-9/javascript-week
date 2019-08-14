@@ -1,170 +1,190 @@
-import { Component, OnInit, HostListener } from "@angular/core";
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
-    selector: "app-schedule",
-    templateUrl: "./schedule.component.html",
-    styleUrls: ["./schedule.component.scss"]
+    selector: 'app-schedule',
+    templateUrl: './schedule.component.html',
+    styleUrls: ['./schedule.component.scss'],
 })
 export class ScheduleComponent implements OnInit {
     schedule: any = {};
-    selectedDay = "martes";
+    selectedDay = 'martes';
     objectKeys = Object.keys;
     constructor() {}
 
     ngOnInit() {
         this.schedule = {
             martes: {
-                day: "martes",
-                date: "20 de agosto",
+                day: 'martes',
+                date: '20 de agosto',
                 events: [
                     {
-                        type: "talk",
-                        title: "Registro de asistentes",
-                        subtitle: "",
-                        date: "5:00 PM"
+                        type: 'talk',
+                        title: 'Registro de asistentes',
+                        subtitle: '',
+                        date: '5:15 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Bienvenida y keynote",
-                        subtitle: "",
-                        date: "6:00 PM"
+                        type: 'talk',
+                        title: 'Bienvenida',
+                        subtitle: '',
+                        date: '6:00 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Flash talk #1",
-                        subtitle: "",
-                        date: "6:15 PM"
+                        type: 'talk',
+                        title: 'Keynote: Why enterprises embrace Node.js',
+                        subtitle: 'Serge Josipovic',
+                        date: '6:30 PM',
                     },
                     {
-                        type: "break",
-                        title: "BREAK",
-                        date: "6:40 PM"
+                        type: 'talk',
+                        title: 'Detangling multithreading in Node.js ',
+                        subtitle: 'Adrián Estrada',
+                        date: '7:00 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Charla de invitado especial #1",
-                        subtitle: "",
-                        date: "7:00 PM"
-                    }
-                ]
+                        type: 'break',
+                        title: 'BREAK',
+                        date: '7:30 PM',
+                    },
+                    {
+                        type: 'talk',
+                        title: 'Cómo Node me facilita las pruebas',
+                        subtitle: 'Olga Saucedo',
+                        date: '8:00 PM',
+                    },
+                ],
             },
             miercoles: {
-                day: "miercoles",
-                date: "21 de agosto",
+                day: 'miercoles',
+                date: '21 de agosto',
                 events: [
                     {
-                        type: "talk",
-                        title: "Registro de asistentes",
-                        subtitle: "",
-                        date: "5:45 PM"
+                        type: 'talk',
+                        title: 'Registro de asistentes',
+                        subtitle: '',
+                        date: '5:45 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Flash talk #2",
-                        subtitle: "",
-                        date: "6:15 PM"
+                        type: 'talk',
+                        title: 'Entendiendo Protocol Buffers y GRPC con Node',
+                        subtitle: 'Diego Botia',
+                        date: '6:30 PM',
                     },
                     {
-                        type: "break",
-                        title: "BREAK",
-                        date: "6:40 PM"
+                        type: 'break',
+                        title: 'BREAK',
+                        date: '7:00 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Charla de invitado especial #2",
-                        subtitle: "",
-                        date: "7:00 PM"
-                    }
-                ]
+                        type: 'talk',
+                        title: 'Node Projects @ Scale',
+                        subtitle: 'Rob Howard & Pete McKinstry',
+                        date: '7:30 PM',
+                    },
+                    {
+                        type: 'talk',
+                        title: 'Que es el CSS Crítico y como calcularlo',
+                        subtitle: 'Julián Lamprea',
+                        date: '8:00 PM',
+                    },
+                ],
             },
             jueves: {
-                day: "jueves",
-                date: "22 de agosto",
+                day: 'jueves',
+                date: '22 de agosto',
                 events: [
                     {
-                        type: "talk",
-                        title: "Registro de asistentes",
-                        subtitle: "",
-                        date: "5:45 PM"
+                        type: 'talk',
+                        title: 'Registro de asistentes',
+                        subtitle: '',
+                        date: '5:45 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Flash talk #3",
-                        subtitle: "",
-                        date: "6:15 PM"
+                        type: 'talk',
+                        title: 'Native NodeJS Modules with Rust and WASM',
+                        subtitle: 'Alex Ramírez',
+                        date: '6:30 PM',
                     },
                     {
-                        type: "break",
-                        title: "BREAK",
-                        date: "6:40 PM"
+                        type: 'break',
+                        title: 'BREAK',
+                        date: '7:00 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Charla de invitado especial #3",
-                        subtitle: "",
-                        date: "7:00 PM"
-                    }
-                ]
+                        type: 'talk',
+                        title: 'NodeJS & Services',
+                        subtitle: 'Alex Pensky',
+                        date: '7:30 PM',
+                    },
+                    {
+                        type: 'talk',
+                        title: 'Deno, una alternativa a Node.js',
+                        subtitle: 'Óscar Granada',
+                        date: '8:00 PM',
+                    },
+                ],
             },
             viernes: {
-                day: "viernes",
-                date: "23 de agosto",
+                day: 'viernes',
+                date: '23 de agosto',
                 events: [
                     {
-                        type: "talk",
-                        title: "Registro de asistentes",
-                        subtitle: "",
-                        date: "5:45 PM"
+                        type: 'talk',
+                        title: 'Registro de asistentes',
+                        subtitle: '',
+                        date: '5:45 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Flash talk #4",
-                        subtitle: "",
-                        date: "6:15 PM"
+                        type: 'talk',
+                        title: 'NodeJS aplicado',
+                        subtitle: 'Ana Sosa',
+                        date: '6:30 PM',
                     },
                     {
-                        type: "break",
-                        title: "BREAK",
-                        date: "6:40 PM"
+                        type: 'break',
+                        title: 'BREAK',
+                        date: '7:00 PM',
                     },
                     {
-                        type: "talk",
-                        title: "Charla de invitado especial #4",
-                        subtitle: "",
-                        date: "7:00 PM"
+                        type: 'talk',
+                        title:
+                            'Buenas prácticas para manejar la arquitectura de tu código',
+                        subtitle: 'David Montoya',
+                        date: '7:30 PM',
                     },
                     {
-                        type: "break",
-                        title: "After y 🍻",
-                        subtitle: "",
-                        date: "9:00 PM"
-                    }
-                ]
+                        type: 'talk',
+                        title: 'NodeJS & languages',
+                        subtitle: 'Kevin Fonner',
+                        date: '8:00 PM',
+                    },
+                ],
             },
             sabado: {
-                day: "sabado",
-                date: "24 de agosto",
+                day: 'sabado',
+                date: '24 de agosto',
                 events: [
                     {
-                        type: "talk",
-                        title: "Registro de asistentes",
-                        subtitle: "",
-                        date: "8:00 AM"
+                        type: 'talk',
+                        title: 'Registro de asistentes',
+                        subtitle: '',
+                        date: '8:00 AM',
                     },
                     {
-                        type: "talk",
-                        title: "Workshop",
-                        subtitle: "",
-                        date: "8:30 AM"
+                        type: 'talk',
+                        title:
+                            'Workshop: Plataforma de inteligencia aumentada para el mejoramiento de la sostenibilidad de cultivos agrícolas',
+                        subtitle: 'Alejandro Peña & Team',
+                        date: '8:30 AM',
                     },
                     {
-                        type: "talk",
-                        title: "Cierre de evento",
-                        subtitle: "",
-                        date: "12:30 PM"
-                    }
-                ]
-            }
+                        type: 'talk',
+                        title: 'Cierre de evento',
+                        subtitle: '',
+                        date: '12:30 PM',
+                    },
+                ],
+            },
         };
     }
 }
