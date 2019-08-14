@@ -12,7 +12,7 @@ import {
     selector: "[appLocalize]"
 })
 export class L10nDirective implements AfterViewInit, OnChanges {
-    private lang = "es";
+    private lang = "en";
     @Input() appLocalizeIf: string;
     @Input() appLocalizeValue: string;
 
@@ -21,22 +21,22 @@ export class L10nDirective implements AfterViewInit, OnChanges {
     constructor(private element: ElementRef, private renderer: Renderer2) {
         this.lang = navigator.language.toLowerCase() || "es";
         const [lang, _] = this.lang.split("-");
-        this.lang = lang;
-        if (!this.dict[this.lang]) {
-            this.dict[this.lang] = {};
+        this.lang = this.dict[lang] ? lang : this.lang;
+        if (!this.dict[lang]) {
+            this.dict[lang] = {};
             const win: any = window;
             if (!win._l10n_reqs) {
                 win._l10n_reqs = {};
-                win._l10n_reqs[this.lang] = fetch(
-                    `/assets/l10n/${this.lang}.json`
-                ).then(res => {
-                    if (res.status > 199 && res.status < 300) {
-                        return res.json();
+                win._l10n_reqs[lang] = fetch(`/assets/l10n/${lang}.json`).then(
+                    res => {
+                        if (res.status > 199 && res.status < 300) {
+                            return res.json();
+                        }
                     }
-                });
+                );
             }
-            win._l10n_reqs[this.lang].then(data => {
-                this.dict[this.lang] = data;
+            win._l10n_reqs[lang].then(data => {
+                this.dict[lang] = data;
                 this.renderContent();
             });
         }
@@ -107,7 +107,9 @@ export class L10nDirective implements AfterViewInit, OnChanges {
             text = "";
         }
         const short = text.trim();
-        const res = this.dict[this.lang][short] || text.trim();
+        const res = this.dict[this.lang]
+            ? this.dict[this.lang][short] || text.trim()
+            : text.trim();
         const result = text.replace(text.trim(), res);
         return result;
     }
