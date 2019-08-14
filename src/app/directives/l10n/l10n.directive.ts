@@ -19,8 +19,8 @@ export class L10nDirective implements AfterViewInit, OnChanges {
     private dict = {};
 
     constructor(private element: ElementRef, private renderer: Renderer2) {
-        this.lang = navigator.language.toLowerCase() || "es";
-        const [lang, _] = this.lang.split("-");
+        const lng = navigator.language.toLowerCase() || "en";
+        const [lang, _] = lng.split("-");
         this.lang = this.dict[lang] ? lang : this.lang;
         if (!this.dict[lang]) {
             this.dict[lang] = {};
@@ -37,6 +37,7 @@ export class L10nDirective implements AfterViewInit, OnChanges {
             }
             win._l10n_reqs[lang].then(data => {
                 this.dict[lang] = data;
+                this.lang = this.dict[lang] ? lang : this.lang;
                 this.renderContent();
             });
         }
@@ -57,6 +58,8 @@ export class L10nDirective implements AfterViewInit, OnChanges {
                 if (this.appLocalizeIf) {
                     if (this.appLocalizeIf !== this.lang) {
                         this.element.nativeElement.style.display = "none";
+                    } else {
+                        this.element.nativeElement.style.display = "";
                     }
                     if (child.nodeName === "#text") {
                         const text = this.renderer.createText(
