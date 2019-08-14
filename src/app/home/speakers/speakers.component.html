@@ -1,15 +1,19 @@
 <div class="jw-speakers">
     <h2 class="jw-speakers__title c-sushi heading-lg">OTROS SPEAKERS</h2>
-    <div class="jw-speakers__grid">
-        <app-speaker
-            *ngFor="let speaker of speakers"
-            [speaker]="speaker"
-            (click)="selectedSpeaker = speaker"
-        ></app-speaker>
-    </div>
-    <app-speaker-info
-        *ngIf="selectedSpeaker"
-        [speaker]="selectedSpeaker"
-        (close)="selectedSpeaker = null"
-    ></app-speaker-info>
+    <div *ngIf="!selectedSpeaker; then thenBlock; else elseBlock"></div>
+    <ng-template #thenBlock>
+        <div class="jw-speakers__grid">
+            <app-speaker
+                *ngFor="let speaker of speakers"
+                [speaker]="speaker"
+                (click)="selectedSpeaker = speaker"
+            ></app-speaker>
+        </div>
+    </ng-template>
+    <ng-template #elseBlock>
+        <app-speaker-info
+            [speaker]="selectedSpeaker"
+            (close)="selectedSpeaker = null"
+        ></app-speaker-info>
+    </ng-template>
 </div>
