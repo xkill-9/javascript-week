@@ -112,8 +112,8 @@ export class ScheduleComponent implements OnInit {
                     },
                     {
                         type: 'talk',
-                        title: 'NodeJS & Services',
-                        subtitle: 'Alex Pensky',
+                        title: 'Controlling the world with Node',
+                        subtitle: 'Kevin Fonner',
                         date: '7:30 PM',
                     },
                     {
@@ -154,15 +154,15 @@ export class ScheduleComponent implements OnInit {
                     },
                     {
                         type: 'talk',
-                        title: 'NodeJS & languages',
-                        subtitle: 'Kevin Fonner',
+                        title: 'Special guest talk',
+                        subtitle: '',
                         date: '8:00 PM',
                     },
                     {
                         type: 'break',
                         title: 'After y 🍻',
                         subtitle: '',
-                        date: '9:00 PM',
+                        date: '8:30 PM',
                     },
                 ],
             },
@@ -181,6 +181,13 @@ export class ScheduleComponent implements OnInit {
                         title:
                             'Workshop: Plataforma de inteligencia aumentada para el mejoramiento de la sostenibilidad de cultivos agrícolas',
                         subtitle: 'Alejandro Peña & Team',
+                        date: '8:30 AM',
+                    },
+                    {
+                        type: 'talk',
+                        title:
+                            'Workshop: Serverless con NodeJS y lo magnífico de no preocuparse por escalabilidad',
+                        subtitle: 'Camilo Montoya',
                         date: '8:30 AM',
                     },
                 ],
