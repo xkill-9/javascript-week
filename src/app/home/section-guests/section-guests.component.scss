@@ -54,7 +54,7 @@
     @include centered-flex;
     flex: 1;
     justify-content: center;
-    @media screen and (max-width: 1310px) {
+    @media screen and (max-width: 1250px) {
       justify-content: flex-start;
     }
   }
@@ -325,31 +325,4 @@
   .guest-person-info .person-container-wrapper {
     font-size: 0.97em;
   }
-}
-
-
-
-/*
- * ==== octogone
- */
- .octo, .octo div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-}
-.octo, .octo div {
-  width: 270px;
-  height: 270px;
-}
-.octo {
-  transform: rotate(45deg);
-}
-.octo1 {
-  transform: rotate(-45deg);
-}
-
-.octo div img {
-  position :relative;
-  left:-5px; top: -5px;
 }
