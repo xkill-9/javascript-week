@@ -22,6 +22,12 @@ export class SectionGuestsComponent implements OnInit {
         company: 'Software Achitecture - Rockwell Automation',
       },
       {
+        image: '/assets/img/special-guests/adrian-estrada.png',
+        talk: 'Detangling multithreading in Node.js',
+        name: 'Adrian Estrada',
+        company: 'Node Source',
+      },
+      {
         image: '/assets/img/special-guests/pete-kinstry.png',
         talk: 'Node projects at scale',
         name: 'Peter Mc Kinstry',
@@ -33,12 +39,12 @@ export class SectionGuestsComponent implements OnInit {
         name: 'Rob Howard',
         company: 'Technical Director - Globant',
       },
-      // {
-      //   image: '/assets/img/special-guests/adrian-estrada.png',
-      //   talk: 'Detangling multithreading in Node.js',
-      //   name: 'Adrian Estrada',
-      //   company: 'Node Source',
-      // },
+      {
+        image: '/assets/img/special-guests/kevin-fonner.png',
+        talk: 'Controlling the world with Node',
+        name: 'Kevin Fonner',
+        company: 'Rockwell Automation',
+      },
     ];
     this.imageIndex = 0;
   }
