@@ -32,7 +32,7 @@ export class SpeakersComponent implements OnInit {
             },
             {
                 name: 'Olga Saucedo',
-                picture: '../../../../assets/img/guests/olga.JPG',
+                picture: '../../../../assets/img/guests/olga.jpeg',
                 bio:
                     'Tengo una amplia y variada experiencia profesional, desde enseñar francés hasta tripular veleros. Actualmente, soy analista de pruebas en Globant. Ante todo, creo soluciones.',
             },
@@ -53,6 +53,18 @@ export class SpeakersComponent implements OnInit {
                 picture: '../../../../assets/img/guests/david.jpg',
                 bio:
                     'Soy desarrollador de NodeJS en Wolox, donde ejerzo con pasión el aprendizaje, la tecnología y la innovación. Amante de los videojuegos y de compartir conocimiento.',
+            },
+            {
+                name: 'Julian Lamprea',
+                picture: '../../../../assets/img/guests/julian.jpg',
+                bio:
+                    'Ingeniero de Software Senior y líder técnico, con más de 10 años trabajando en optimización y rendimiento desde Backend hasta Frontend.',
+            },
+            {
+                name: 'Camilo Montoya',
+                picture: '../../../../assets/img/guests/camilo.jpeg',
+                bio:
+                    'Fundador de NodeCo, una comunidad de nodejs y javascript. Actualmente es CTO en Salesavant una empresa de data science para asesores comerciales.',
             },
         ];
     }
