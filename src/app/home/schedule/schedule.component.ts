@@ -48,7 +48,7 @@ export class ScheduleComponent implements OnInit {
                     },
                     {
                         type: 'talk',
-                        title: 'Cómo Node me facilita las pruebas',
+                        title: 'Yo no quiero hacer eso (a mano)',
                         subtitle: 'Olga Saucedo',
                         date: '8:30 PM',
                     },
