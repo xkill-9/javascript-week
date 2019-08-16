@@ -38,7 +38,7 @@ export class SpeakersComponent implements OnInit {
             },
             {
                 name: 'Ana Sosa',
-                picture: '../../../../assets/img/anaSosa.png',
+                picture: '../../../../assets/img/guests/ana.jpg',
                 bio:
                     'Co-organizer and co-founder of @pionerasdev and #RailsGirlsMed. Happy dev at @globant',
             },
