@@ -18,7 +18,7 @@ export class SectionGuestsComponent implements OnInit {
                 image: '/assets/img/special-guests/srdjan-josipovic.png',
                 talk: 'Keynote: Why enterprises embrace Node.js',
                 name: 'Serge Josipovic',
-                company: 'Architecture Manager - Rockwell Automation',
+                company: 'Senior Manager: CVB Software Architecture - Rockwell Automation',
             },
             {
                 image: '/assets/img/special-guests/adrian-estrada.png',
