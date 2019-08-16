@@ -7,9 +7,4 @@
             (click)="selectedSpeaker = speaker"
         ></app-speaker>
     </div>
-    <app-speaker-info
-        *ngIf="selectedSpeaker"
-        [speaker]="selectedSpeaker"
-        (close)="selectedSpeaker = null"
-    ></app-speaker-info>
 </div>

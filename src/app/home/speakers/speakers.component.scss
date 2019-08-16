@@ -19,15 +19,12 @@
         }
     }
     &__grid {
-        display: grid;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
-        max-width: 1160px;
-        grid-gap: 30px;
-        grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
-        justify-items: center;
-        @media screen and (max-width: 730px) {
-            grid-gap: 23px;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        }
+        max-width: 1260px;
+        justify-content: center;
+        align-items: center;
     }
 }
