@@ -47,6 +47,10 @@ export class SectionApoioComponent implements OnInit {
             name: 'Paula Mazo',
             picture: '/assets/img/Mazo.png',
         },
+        {
+            name: 'Dilan Hoyos',
+            picture: '/assets/img/dylan.jpg',
+        },
     ];
 
     constructor() {}

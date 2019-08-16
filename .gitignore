@@ -43,3 +43,4 @@ Thumbs.db
 /.history
 
 firebase.config.ts
+.firebase/
