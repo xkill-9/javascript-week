@@ -4,5 +4,10 @@
         [src]="speaker.picture"
         [alt]="speaker.name"
     />
-    <span class="jw-speaker__name c-gun-powder">{{ speaker.name }}</span>
+    <div class="jw-speaker-info">
+        <span class="jw-speaker__name c-sushi">{{ speaker.name }}</span>
+        <p class="jw-speaker__bio c-gun-powder">
+            {{ speaker.bio }}
+        </p>
+    </div>
 </div>

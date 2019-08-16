@@ -12,54 +12,47 @@ export class SpeakersComponent implements OnInit {
     ngOnInit() {
         this.speakers = [
             {
-                name: 'Adrian Estrada',
-                title: 'Tech Manager',
-                picture:
-                    'https://s.gravatar.com/avatar/b6e74cc5bf30b12fe6346c6b4ba3db25?s=400&r=g',
-                bio:
-                    'Developer in love with Node.js, thirsty for new technologies, working at @NodeSource, official Node.js core Collaborator,  organizer at @MedellinJS',
-            },
-            {
-                name: 'Diego Valderrama',
-                title: 'Tech Manager',
-                picture: '../../../../assets/img/man.png',
-                bio:
-                    "Here is where i'd put the bio ... if i had one! (ノಠ益ಠ)ノ彡┻━┻",
+                name: 'Diego Botia',
+                picture: '../../../../assets/img/guests/diego.png',
+                bio: `Ingeniero de Sistemas y de Computación, Master en Software Libre y Doctor en Ingeniería Electrónica.
+                    Experiencia de 15 años en desarrollo de software`,
             },
             {
                 name: 'Oscar Granada',
-                title: 'Tech Manager',
-                picture: '../../../../assets/img/oscarGranada.png',
-                bio:
-                    "Here is where i'd put the bio ... if i had one! (ノಠ益ಠ)ノ彡┻━┻",
+                picture: '../../../../assets/img/guests/oscar.png',
+                bio: `He has more than 10 years of experience as a software developer.
+                    Started editing CSS files to modify Musicmatch Jukebox themes and hasn't stop developing software ever since.`,
             },
             {
                 name: 'Alejandro Peña',
-                title: 'Tech Manager',
-                picture: '../../../../assets/img/man.png',
-                bio:
-                    "Here is where i'd put the bio ... if i had one! (ノಠ益ಠ)ノ彡┻━┻",
+                picture: '../../../../assets/img/guests/alejandro.jpg',
+                bio: `Researcher focused on Machine Learning. Mr.
+                Peña has developed several researchers and publications about modelling of
+                dynamical systems`,
             },
             {
                 name: 'Olga Saucedo',
-                title: 'Tech Manager',
-                picture: '../../../../assets/img/man.png',
+                picture: '../../../../assets/img/guests/olga.JPG',
                 bio:
-                    "Here is where i'd put the bio ... if i had one! (ノಠ益ಠ)ノ彡┻━┻",
+                    'Tengo una amplia y variada experiencia profesional, desde enseñar francés hasta tripular veleros. Actualmente, soy analista de pruebas en Globant. Ante todo, creo soluciones.',
             },
             {
                 name: 'Ana Sosa',
-                title: 'Tech Manager',
                 picture: '../../../../assets/img/anaSosa.png',
                 bio:
-                    "Here is where i'd put the bio ... if i had one! (ノಠ益ಠ)ノ彡┻━┻",
+                    'Co-organizer and co-founder of @pionerasdev and #RailsGirlsMed. Happy dev at @globant',
+            },
+            {
+                name: 'Alex Ramirez',
+                picture: '../../../../assets/img/guests/alex.png',
+                bio:
+                    'Alex Ramirez is a software developer with experience in different languages, who decided to focus in JavaScript related technologies for the last 7 years.',
             },
             {
                 name: 'David Montoya',
-                title: 'Tech Manager',
-                picture: '../../../../assets/img/man.png',
+                picture: '../../../../assets/img/guests/david.jpg',
                 bio:
-                    "Here is where i'd put the bio ... if i had one! (ノಠ益ಠ)ノ彡┻━┻",
+                    'Soy desarrollador de NodeJS en Wolox, donde ejerzo con pasión el aprendizaje, la tecnología y la innovación. Amante de los videojuegos y de compartir conocimiento.',
             },
         ];
     }
