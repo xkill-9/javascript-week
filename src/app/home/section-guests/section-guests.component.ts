@@ -18,7 +18,7 @@ export class SectionGuestsComponent implements OnInit {
                 image: '/assets/img/special-guests/srdjan-josipovic.png',
                 talk: 'Keynote: Why enterprises embrace Node.js',
                 name: 'Serge Josipovic',
-                company: 'Software Achitecture - Rockwell Automation',
+                company: 'Architecture Manager - Rockwell Automation',
             },
             {
                 image: '/assets/img/special-guests/adrian-estrada.png',
@@ -42,7 +42,7 @@ export class SectionGuestsComponent implements OnInit {
                 image: '/assets/img/special-guests/kevin-fonner.png',
                 talk: 'Controlling the world with Node',
                 name: 'Kevin Fonner',
-                company: 'Rockwell Automation',
+                company: 'Software Engineer - Rockwell Automation',
             },
         ];
         this.imageIndex = 0;
