@@ -36,14 +36,14 @@ export class ScheduleComponent implements OnInit {
                         date: '7:00 PM',
                     },
                     {
-                        type: 'talk',
-                        title: 'Detangling multithreading in Node.js',
-                        subtitle: 'Adrián Estrada',
+                        type: 'break',
+                        title: 'BREAK',
                         date: '7:30 PM',
                     },
                     {
-                        type: 'break',
-                        title: 'BREAK',
+                        type: 'talk',
+                        title: 'Detangling multithreading in Node.js',
+                        subtitle: 'Adrián Estrada',
                         date: '8:00 PM',
                     },
                     {
